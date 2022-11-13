@@ -32,8 +32,10 @@ In this lesson, you will learn the basic concepts and methods of machine learnin
 
 To read before class:
 
--   Brunsdon, C., Fotheringham, A.S., and Charlton, M. (2002) "Geographically weighted regression: A method for exploring spatial nonstationarity". Geographical Analysis, 28: 281-289.
--   Brunsdon, C., Fotheringham, A.S. and Charlton, M., (1999) "Some Notes on Parametric Significance Tests for Geographically Weighted Regression". Journal of Regional Science, 39(3), 497-524.
+-   Georganos, S. et. al. (2019) ["Geographical Random Forests: A Spatial Extension of the Random Forest Algorithm to Address Spatial Heterogeneity in Remote Sensing and Population Modelling"](https://www.tandfonline.com/doi/full/10.1080/10106049.2019.1595177). *Geocarto International*, 36, 121–136.
+-   Georganos, S. & Kalogirou, S. (2022) ["A Forest of Forests: A SpatiallyWeighted and Computationally
+Efficient Formulation of Geographical Random Forests"](https://www.mdpi.com/2220-9964/11/9/471), *International Journal of Geo-Information*, 11, 471-479.
+-   Julian Hagenauer & Marco Helbich (2022) ["A geographically weighted artificial neural network"](https://www.tandfonline.com/doi/full/10.1080/13658816.2021.1871618), *International Journal of Geographical Information Science*, 36:2, 215-235, DOI: 10.1080/13658816.2021.1871618
 
 ## References
 

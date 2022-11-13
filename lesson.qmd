@@ -1,0 +1,13 @@
+---
+title: "Weekly Lesson Plan"
+editor: visual
+---
+
+|      |            |                                                                     |                      |
+|------------|-------------------|------------------------------------------|--|
+| Week | Date       | Topic                                                               | Student Assignment   |
+| 1    | 19/11/2022 | [Spatial Point Patterns Analysis (SPPA)](outline/lesson1_outline.html)| Take-home Exercise 1 |
+| 2    | 26/11/2022 | [Global and Local Measures of Spatial Autocorrelation](outline/Lesson2_outline.html)| Take-home Exercise 2 |
+| 3    | 3/12/2022  | [Geographic Segmentation with Spatially Constrained Cluster Analysis](outline/Lesson3_outline.html) | Take-home Exercise 3 |
+| 4    | 10/12/2022 | [Geographically Weighted Regression]() | Take-home Exercise 4 |
+| 5    | 17/12/2022 | Modelling Geographic of Accessibility                               |                      |

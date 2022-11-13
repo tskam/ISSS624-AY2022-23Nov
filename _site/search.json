@@ -11,6 +11,167 @@
     "href": "index.html",
     "title": "ISSS624-AY2022-23Nov",
     "section": "",
-    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "In this web site, you will find all course materials here.\nInstructor: Dr. Kam Tin Seong, Associate Professor of Information Systems (Practice)\nTime: 8:15am - 11:30am\nVenue:\nConsultation booking link.\nVirtual Meeting Room: Zoom\n\n\n\n\nAll acts of academic dishonesty (including, but not limited to, plagiarism, cheating, fabrication, facilitation of acts of academic dishonesty by others, unauthorized possession of exam questions, or tampering with the academic work of other students) are serious offences. All work (whether oral or written) submitted for purposes of assessment must be the student’s own work. Penalties for violation of the policy range from zero marks for the component assessment to expulsion, depending on the nature of the offense. When in doubt, students should consult the instructors of the course. Details on the SMU Code of Academic Integrity may be accessed at http://www.smuscd.org/resources.html\n\n\n\nCourse materials obtained during your course of study at SMU are meant for personal use only, namely, for the purposes of studying and research. You are strictly not permitted to make copies of or print additional copies or distribute such copies of the course materials or any parts thereof, for commercial gain or exchange. For example, offering such materials on the Internet through CourseHero, Carousell and the like, is strictly prohibited.\nThe selling of these materials and/or any copies thereof are strictly prohibited under Singapore copyright laws. Printed materials and electronic materials are both protected by copyright laws. All students are subject to Singapore copyright laws and must strictly adhere to SMU’s procedures and requirements relating to copyright.\nPlease also note that for some materials, the publishers may specifically state that each copy is for the personal use of one individual only and no further reprographic reproduction is allowed, including for personal use. These restrictions are spelt out clearly on these specific sets of resources and students are required to adhere to these rules.\nStudents who infringe any of the aforesaid rules, laws and requirements shall be liable to disciplinary action by SMU. In addition, such students may also leave themselves open to suits by copyright owners who are entitled to take legal action against persons who infringe their copyright.\nWe strongly urge all students to respect the copyright laws and abide by SMU’s procedures and requirements relating to copyright.\n\n\n\nSMU strives to make learning experiences accessible for all. If you anticipate or experience physical or academic barriers due to disability, please let the instructor know immediately. You are also welcome to contact the university’s disability support team if you have questions or concerns about academic accommodations:included@smu.edu.sg\nPlease be aware that the accessible tables in our seminar room should remain available for students who require them. Emergency Preparedness for Teaching and Learning (EPTL): As part of emergency preparedness, Instructors may conduct lessons online via the WebEx platform during the term, to prepare students for online learning. During an actual emergency, students will be notified to access the WebEx platform for their online lessons. The class schedule will mirror the current face-to-face class timetable unless otherwise stated."
+  },
+  {
+    "objectID": "lesson.html",
+    "href": "lesson.html",
+    "title": "Weekly Lesson Plan",
+    "section": "",
+    "text": "Week\nDate\nTopic\nStudent Assignment\n\n\n1\n19/11/2022\nSpatial Point Patterns Analysis (SPPA)\nTake-home Exercise 1\n\n\n2\n26/11/2022\nGlobal and Local Measures of Spatial Autocorrelation\nTake-home Exercise 2\n\n\n3\n3/12/2022\nGeographic Segmentation with Spatially Constrained Cluster Analysis\nTake-home Exercise 3\n\n\n4\n10/12/2022\nGeographically Weighted Regression\nTake-home Exercise 4\n\n\n5\n17/12/2022\nModelling Geographic of Accessibility"
+  },
+  {
+    "objectID": "outline/Lesson1_outline.html",
+    "href": "outline/Lesson1_outline.html",
+    "title": "Lesson 1: Spatial Weights and Applications",
+    "section": "",
+    "text": "Computing spatial weight is an essential step toward measuring the strength of the spatial relationships between objects. In this lesson, the basic concept of spatial weight will be introduced. This is followed by a discussion of methods to compute spatial weights."
+  },
+  {
+    "objectID": "outline/Lesson1_outline.html#content",
+    "href": "outline/Lesson1_outline.html#content",
+    "title": "Lesson 1: Spatial Weights and Applications",
+    "section": "Content",
+    "text": "Content\n\nTobler’s First law of Geography\nPrinciples of Spatial Autocorrelation\nConcepts of Spatial Proximity and Spatial Weights\n\nContiguity-Based Spatial Weights: Rook’s & Queen’s\nDistance-Band Spatial Weights: fixed and adaptive\n\nApplications of Spatial Weights\n\nGlobal measures of spatial autocorrelation\nCorrelogram"
+  },
+  {
+    "objectID": "outline/Lesson1_outline.html#lesson-slides-and-hands-on-notes",
+    "href": "outline/Lesson1_outline.html#lesson-slides-and-hands-on-notes",
+    "title": "Lesson 1: Spatial Weights and Applications",
+    "section": "Lesson Slides and Hands-on Notes",
+    "text": "Lesson Slides and Hands-on Notes\n\nSlides in html format.\nHandout of Hands-on Exercise 1 in html\n\n\nSelf-reading Before Meet-up\nTo read before class:\n\nChapter 2. Codifying the neighbourhood structure of Handbook of Spatial Analysis: Theory and Application with R.\n\nAlternatively\n\nChapter 9: Modelling Areal Data of Applied Spatial Data Analysis with R (2nd Edition). This book is available in smu digital library. Until section 9.3.1."
+  },
+  {
+    "objectID": "outline/Lesson1_outline.html#references",
+    "href": "outline/Lesson1_outline.html#references",
+    "title": "Lesson 1: Spatial Weights and Applications",
+    "section": "References",
+    "text": "References\n\nFrançois Bavaud (2010) “Models for Spatial Weights: A Systematic Look” Geographical Analysis, Vol. 30, No.2, pp 153-171.\nTony H. Grubesic and Andrea L. Rosso (2014) “The Use of Spatially Lagged Explanatory Variables for Modeling Neighborhood Amenities and Mobility in Older Adults”, Cityscape, Vol. 16, No. 2, pp. 205-214."
+  },
+  {
+    "objectID": "outline/Lesson1_outline.html#all-about-r",
+    "href": "outline/Lesson1_outline.html#all-about-r",
+    "title": "Lesson 1: Spatial Weights and Applications",
+    "section": "All About R",
+    "text": "All About R\n\nspdep package\n\ndnearneigh()\nknearneigh()"
+  },
+  {
+    "objectID": "outline/Lesson2_outline.html",
+    "href": "outline/Lesson2_outline.html",
+    "title": "Lesson 2: Global and Local Measures of Spatial Autocorrelation",
+    "section": "",
+    "text": "In this lesson, you will learn a collection of geospatial statistical methods specially designed for measuring global and local spatial association.\nThese spatial statistics are well suited for:\n\ndetecting clusters or outliers;\nidentifying hot spot or cold spot areas;\nassessing the assumptions of stationarity; and\nidentifying distances beyond which no discernible association obtains."
+  },
+  {
+    "objectID": "outline/Lesson2_outline.html#content",
+    "href": "outline/Lesson2_outline.html#content",
+    "title": "Lesson 2: Global and Local Measures of Spatial Autocorrelation",
+    "section": "Content",
+    "text": "Content\n\nWhat is Spatial Autocorrelation\n\nMeasures of Global Spatial Autocorrelation\nMeasures of Global High/Low Clustering\n\nIntroducing Localised Geospatial Analysis\n\nLocal Indicators of Spatial Association (LISA)\n\nCluster and Outlier Analysis\n\nLocal Moran and Local Geary\nMoran scatterplot\nLISA Cluster Map\n\nHot Spot and Cold Spot Areas Analysis\n\nGetis and Ord’s G-statistics\n\nCase Studies"
+  },
+  {
+    "objectID": "outline/Lesson2_outline.html#lesson-slides-and-hands-on-notes",
+    "href": "outline/Lesson2_outline.html#lesson-slides-and-hands-on-notes",
+    "title": "Lesson 2: Global and Local Measures of Spatial Autocorrelation",
+    "section": "Lesson Slides and Hands-on Notes",
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson slides in html and pdf formats\nHandout of Hands-on Exercise 7 in html and in pdf formats."
+  },
+  {
+    "objectID": "outline/Lesson2_outline.html#self-reading-before-meet-up",
+    "href": "outline/Lesson2_outline.html#self-reading-before-meet-up",
+    "title": "Lesson 2: Global and Local Measures of Spatial Autocorrelation",
+    "section": "Self-reading Before Meet-up",
+    "text": "Self-reading Before Meet-up\nTo read before class:\n\nMoran, P. A. P. (1950). “Notes on Continuous Stochastic Phenomena”. Biometrika. 37 (1): 17–23.\nGeary, R.C. (1954) “The Contiguity Ratio and Statistical Mapping”. The Incorporated Statistician, Vol. 5, No. 3, pp. 115-127.\nGetis, A., & Ord, K. (1992). “The Analysis of Spatial Association by Use of Distance Statistics”. Geographical Analysis, 24, 189–206.\nAnselin, L. (1995). “Local indicators of spatial association – LISA”. Geographical Analysis, 27(4): 93-115.\nGetis, A. and Ord, J.K. (1992) “The analysis of spatial association by use of distance statistics”. Geographical Analysis, 24(3): 189-206.\nOrd, J.K. and Getis, A. (2010) “Local spatial autocorrelation statistics: Distributional issues and an application”. Geographical Analysis, 27(4): 286-306.\n\nThese six papers are classics of Global and Local Spatial Autocorrelation. Be warned: All classic papers assume that the readers are academic researchers."
+  },
+  {
+    "objectID": "outline/Lesson2_outline.html#references",
+    "href": "outline/Lesson2_outline.html#references",
+    "title": "Lesson 2: Global and Local Measures of Spatial Autocorrelation",
+    "section": "References",
+    "text": "References\n\nD. A. Griffith (2009) “Spatial autocorrelation”.\nGetis, A., 2010 “B.3 Spatial Autocorrelation” in Fischer, M.M., and Getis, A. 2010 Handbook of Applied Spatial Analysis: Software Tools, Methods and Applications, Springer.\nAnselin, L. (1996) “The Moran scatterplot as an ESDA tool to assess local instability in spatial association”\nGriffith, Daniel (2009) “Modeling spatial autocorrelation in spatial interaction data: empirical evidence from 2002 Germany journey-to-work flows”. Journal of Geographical Systems, Vol.11(2), pp.117-140.\nCelebioglu, F., and Dall’erba, S. (2010) “Spatial disparities across the regions of Turkey: An exploratory spatial data analysis”. The Annals of Regional Science, 45:379–400.\nMack, Z.W.V. and Kam T.S. (2018) “Is There Space for Violence?: A Data-driven Approach to the Exploration of Spatial-Temporal Dimensions of Conflict” Proceedings of 2nd ACM SIGSPATIAL Workshop on Geospatial Humanities (ACM SIGSPATIAL’18). Seattle, Washington, USA, 10 pages.\nTAN, Yong Ying and KAM, Tin Seong (2019). “Exploring and Visualizing Household Electricity Consumption Patterns in Singapore: A Geospatial Analytics Approach”, Information in Contemporary Society: 14th International Conference, iConference 2019, Washington, DC, USA, March 31–April 3, 2019, Proceedings. Pp 785-796.\nSingh A., Pathak P.K., Chauhan R.K., and Pan, W. (2011) “Infant and Child Mortality in India in the Last Two Decades: A Geospatial Analysis”. PLoS ONE 6(11), 1:19."
+  },
+  {
+    "objectID": "outline/Lesson3_outline.html#content",
+    "href": "outline/Lesson3_outline.html#content",
+    "title": "Lesson 3: Geographic Segmentation with Spatially Constrained Cluster Analysis",
+    "section": "Content",
+    "text": "Content\n\nBasic concepts of geographic segmentation\nConventional cluster analysis techniques\nApproaches for clustering geographically referenced data\n\nHierarchical clustering with spatial constraints\nMinimum spanning trees"
+  },
+  {
+    "objectID": "outline/Lesson3_outline.html#lesson-slides-and-hands-on-notes",
+    "href": "outline/Lesson3_outline.html#lesson-slides-and-hands-on-notes",
+    "title": "Lesson 3: Geographic Segmentation with Spatially Constrained Cluster Analysis",
+    "section": "Lesson Slides and Hands-on Notes",
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson slides in html and pdf formats\nHandout of Hands-on Exercise 8 in html and pdf formats.\n\n\nSelf-reading Before Meet-up\nTo read before class:\n\nAssuncao, R. M., Neves, M.C., Camara, G. and Costa Freitas, C.D. 2006. “Efficient Regionalization Techniques for Socio-Economic Geographical Units Using Minimum Spanning Trees.” International Journal of Geographical Information Science 20: 797–811.\n\n\n\nReferences\n\nRovan, J. and Sambt, J. (2003) “Socio-economic Differences Among Slovenian Municipalities: A Cluster Analysis Approach”, Developments in Applied Statistics, pp. 265-278.\n\nDemeter, T. and Bratucu, G. (2013) “Statistical Analysis Of The EU Countries from A Touristic Point of View”, Bulletin of the Transilvania University of Braşov, 6(55): 121-130.\nBrown, N.S. & Watson, P. (2012) “What can a comprehensive plan really tell us about a region?: A cluster analysis of county comprehensive plans in Idaho”, Western Economics Forum. Pp.22-37.\n\n\n\nAll About R\n\nHierarchical Cluster Analysis.\nskater: A function from spdep package that implements a SKATER procedure for spatial clustering analysis.\nClustGeo: Hierarchical Clustering with Spatial Constraints\n\nIntroduction to Clustgeo\nChavent, M., Kuentz-Simonet, V., Labenne,A. and Saracco, J. 2018. “ClustGeo: an R package for hierarchical clustering with spatial constraints” Computational Statistics, 33: 1799-1822."
+  },
+  {
+    "objectID": "outline/Lesson4_outline.html",
+    "href": "outline/Lesson4_outline.html",
+    "title": "Lesson 4: Geograpgically Weighted Regression",
+    "section": "",
+    "text": "In this lesson, you will learn the basic concepts and methods of geographically weighted regression."
+  },
+  {
+    "objectID": "outline/Lesson4_outline.html#content",
+    "href": "outline/Lesson4_outline.html#content",
+    "title": "Lesson 4: Geograpgically Weighted Regression",
+    "section": "Content",
+    "text": "Content\n\nBasic concepts and principles of linear regression\n\nSimple linear regression\nMultiple linear regression\n\nThe spatial stationarity assumption of multiple linear regression.\nIntroducing Geographically Weighted Regression\n\nWeighting functions (kernel)\nWeighting schemes\nBandwidth\nInterpreting and Visualising"
+  },
+  {
+    "objectID": "outline/Lesson4_outline.html#lesson-slides-and-hands-on-notes",
+    "href": "outline/Lesson4_outline.html#lesson-slides-and-hands-on-notes",
+    "title": "Lesson 4: Geograpgically Weighted Regression",
+    "section": "Lesson Slides and Hands-on Notes",
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson slides in html and pdf formats\nHandout of Hands-on Exercise 9 in html and pdf formats."
+  },
+  {
+    "objectID": "outline/Lesson4_outline.html#self-reading-before-meet-up",
+    "href": "outline/Lesson4_outline.html#self-reading-before-meet-up",
+    "title": "Lesson 4: Geograpgically Weighted Regression",
+    "section": "Self-reading Before Meet-up",
+    "text": "Self-reading Before Meet-up\nTo read before class:\n\nBrunsdon, C., Fotheringham, A.S., and Charlton, M. (2002) “Geographically weighted regression: A method for exploring spatial nonstationarity”. Geographical Analysis, 28: 281-289.\nBrunsdon, C., Fotheringham, A.S. and Charlton, M., (1999) “Some Notes on Parametric Significance Tests for Geographically Weighted Regression”. Journal of Regional Science, 39(3), 497-524."
+  },
+  {
+    "objectID": "outline/Lesson4_outline.html#references",
+    "href": "outline/Lesson4_outline.html#references",
+    "title": "Lesson 4: Geograpgically Weighted Regression",
+    "section": "References",
+    "text": "References\n\nMennis, Jeremy (2006) “Mapping the Results of Geographically Weighted Regression”, The Cartographic Journal, Vol.43 (2), p.171-179.\nStephen A. Matthews ; Tse-Chuan Yang (2012) “Mapping the results of local statistics: Using geographically weighted regression”, Demographic Research, Vol.26, p.151-166."
+  },
+  {
+    "objectID": "outline/Lesson4_outline.html#all-about-r",
+    "href": "outline/Lesson4_outline.html#all-about-r",
+    "title": "Lesson 4: Geograpgically Weighted Regression",
+    "section": "All About R",
+    "text": "All About R\n\nGWmodel package, especially\n\nGollini, I et. al. (2015) “GWmodel: An R Package for Exploring Spatial Heterogeneity Using Geographically Weighted Models”, Journal of Statistical Software, Volume 63, Issue 17 and\nBinbin Lu, Paul Harris, Martin Charlton & Chris Brunsdon (2014) “The GWmodel R package: further topics for exploring spatial heterogeneity using geographically weighted models”, Geo-spatial Information Science, 17:2, 85-101, DOI: 10.1080/10095020.2014.917453.\n\nlctools package especially gw() and gwr() related functions.\nspgwr implements of geographically weighted regression methods for exploring possible non-stationarity.\ngwrr: its geographically weighted regression (GWR) models and has tools to diagnose and remediate collinearity in the GWR models. Also fits geographically weighted ridge regression (GWRR) and geographically weighted lasso (GWL) models."
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "ISSS624 Applied Geospatial Analytics",
+    "section": "",
+    "text": "Where should the next new business outlet be located in order to optimise the profit? What are the location factors that affect the resale prices of HDB housing units? Which are the economic or service activities such as IT professional firms, car workshops, fast food chains (ie. KFC, McDonalds), coffee outlets (Starbucks, Ya Kun Kaya Toast, Toast Box) that tend to be located close to one another and which are the ones that tend to be a distance apart? Do these observed patterns and processes occur at random or are they being constrained by geographical factors? These and many other related questions are the challenges faced by data scientists and data analysts today especially when geographical data are used.\nGeospatial Analytics offers the solutions to these questions by providing data scientists and analysts a problem-driven and data-centric analysis framework focusing on discovering actionable understanding from geographically referenced data. It makes extensive use of geospatial data wrangling, geoprocessing, spatial statistical, geospatial machine learning and spatial data visualisation techniques to support decision- and strategy-making.\nThis course provides students with an introduction to the concepts, principles and methods of geospatial analytics and their practical applications of geospatial analytics in real world operations. Emphasis will be placed on:\n\nperforming geospatial data science tasks such as importing, tidying, manipulating, transforming, projecting and processing geospatial data programmatically,\nvisualising, analysing and describing geographical patterns and processes using appropriate geovisualisation and thematic mapping techniques,\nconducting geospatial analysis by using appropriate spatial statistics and Geomachine learning methods and\ncommunicating the geospatial analysis pipeline in a reproducible report."
+  },
+  {
+    "objectID": "syllabus.html#course-structure",
+    "href": "syllabus.html#course-structure",
+    "title": "ISSS624 Applied Geospatial Analytics",
+    "section": "Course structure",
+    "text": "Course structure\n\nBasic Modules\nThis course comprises ten integrated components as shown below:"
+  },
+  {
+    "objectID": "syllabus.html#grading-summary",
+    "href": "syllabus.html#grading-summary",
+    "title": "ISSS624 Applied Geospatial Analytics",
+    "section": "Grading Summary",
+    "text": "Grading Summary\n\n\n\nAssignments / Assessment categories\nWeighting\n\n\n\n\nClass participation (including pre-lesson learning)\n15%\n\n\nHands-on Exercise (5% x 5)\n25%\n\n\nTake-home Exercise (15% x 4)\n60%\n\n\n\n\nClass Participation (15%)\nPre-lesson videos and recommended readings exercises will be released one week before the weekly lesson starts. A strict requirement for each class meeting is to complete the assigned readings and video before coming to class. Students are required write down at least one question or issue encountered while viewing the video or reading the recommended articles and raised them during the in-class discussion.\nStudent sharing of insights from readings of assigned materials in class participation will form a large part of the learning in this course. Students may also be quizzed in class and thereby contribute to class participation.\n\n\nHands-on Exercise (25%)\nHands-on exercises aim to provide students to gain hands-on experience on using selected R packages to perform geospatial analysis with real world use cases. It is important for students to complete the hands-on exercises before class. This is because the in-class discussion will extend the methods learned from the hands-on exercise to advanced modelling. The in-class discussion will also focus on how to interpret the analysis results and to communicate the analysis results by using appropriate map and data visualisation techniques.\n\n\nTake-home Exercise (60%)\nThere are four take-home exercises that are due throughout the term. They aim to provide students the opportunities to apply the methods learned in class by working through mini real-world cases. Each take-home exercise is an extension of the hands-on and in-class exercises. What this means is that, for example, in Lesson 1, students will learn the concept of spatial point processes and the hands-on exercise will provide students step-by-step guide on how to use R packages to perform spatial point patterns analysis. The in-class discussion, beside clarification of the concepts and usage of R packages syntax and argument, it will focus more on how to interpret and communicate the analysis results. Then the take-home exercise will require students to synthesise what they have learned from the readings, hands-on exercise and in-class exercise. The estimated workload will be about 6-8 hours per week.\nEach take-home exercise will carry a same weightage of 15%. The deliverable format of the take-home exercises and marking rubric of will be provided on the handout of the take-home exercise. Feedback on take-home exercise will be provided weekly before the weekly lesson starts. This is to ensure that students will learn from mistakes made in the earlier take-home exercise and improve their work progressively in the subsequent take-home exercises.\nStudents may work together to help one another with computer or geospatial issues and discuss the materials that constitute the take-home exercise. However, each student is required to prepare and submit the take-home exercise (including any computer work) on their own. Cheating is strictly prohibited. Cheating includes but not limited to: plagiarism and submission of work that is not the student’s.\n\n\nFinal Exam\nThere will be no final examination for this course."
+  },
+  {
+    "objectID": "syllabus.html#reference",
+    "href": "syllabus.html#reference",
+    "title": "ISSS624 Applied Geospatial Analytics",
+    "section": "Reference",
+    "text": "Reference\n\nGimond, Manuel. (2018) Introduction to GIS and Spatial Analysis. (e-book, last visit: 11/11/2022).\nFloch, J.M., Marcon, E. and Puech, F. (2018) Handbook of Spatial Analysis: Theory and Application with R.\nRoger S. Bivand, Edzer Pebesma and Virgilio Gómez-Rubio (2013) Applied Spatial Data Analysis with R (2nd Edition), Springer. (via SMU Library)\n\nBrunsdon, C. & Comber, L (2019) An Introduction to R for Spatial Analysis and Mapping (2nd Edition), SAGE Publication, London."
   }
 ]

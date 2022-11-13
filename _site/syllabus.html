@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>ISSS624 Applied Geospatial Analytics -</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">ISSS624 Applied Geospatial Analytics</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./syllabus.html" aria-current="page">Syllabus</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./lesson.html">Lesson Plan</a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-take-home-exercise" role="button" data-bs-toggle="dropdown" aria-expanded="false">Take-home Exercise</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-take-home-exercise">    
+        <li>
+    <a class="dropdown-item" href="./Take-home_Ex01.html">
+ <span class="dropdown-text">Take-home Exercise 1</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Take-home_Ex02.html">
+ <span class="dropdown-text">Take-home Exercise 2</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Take-home_Ex03.html">
+ <span class="dropdown-text">Take-home Exercise 3</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./resources.html">Resources</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">Home</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#synopsis" id="toc-synopsis" class="nav-link active" data-scroll-target="#synopsis">Synopsis</a></li>
+  <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">Objectives</a>
+  <ul class="collapse">
+  <li><a href="#course-structure" id="toc-course-structure" class="nav-link" data-scroll-target="#course-structure">Course structure</a>
+  <ul class="collapse">
+  <li><a href="#basic-modules" id="toc-basic-modules" class="nav-link" data-scroll-target="#basic-modules">Basic Modules</a></li>
+  </ul></li>
+  <li><a href="#grading-summary" id="toc-grading-summary" class="nav-link" data-scroll-target="#grading-summary">Grading Summary</a>
+  <ul class="collapse">
+  <li><a href="#class-participation-15" id="toc-class-participation-15" class="nav-link" data-scroll-target="#class-participation-15">Class Participation (15%)</a></li>
+  <li><a href="#hands-on-exercise-25" id="toc-hands-on-exercise-25" class="nav-link" data-scroll-target="#hands-on-exercise-25">Hands-on Exercise (25%)</a></li>
+  <li><a href="#take-home-exercise-60" id="toc-take-home-exercise-60" class="nav-link" data-scroll-target="#take-home-exercise-60">Take-home Exercise (60%)</a></li>
+  <li><a href="#final-exam" id="toc-final-exam" class="nav-link" data-scroll-target="#final-exam">Final Exam</a></li>
+  </ul></li>
+  <li><a href="#reference" id="toc-reference" class="nav-link" data-scroll-target="#reference">Reference</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="synopsis" class="level1">
+<h1>Synopsis</h1>
+<p>Where should the next new business outlet be located in order to optimise the profit? What are the location factors that affect the resale prices of HDB housing units? Which are the economic or service activities such as IT professional firms, car workshops, fast food chains (ie. KFC, McDonalds), coffee outlets (Starbucks, Ya Kun Kaya Toast, Toast Box) that tend to be located close to one another and which are the ones that tend to be a distance apart? Do these observed patterns and processes occur at random or are they being constrained by geographical factors? These and many other related questions are the challenges faced by data scientists and data analysts today especially when geographical data are used.</p>
+<p>Geospatial Analytics offers the solutions to these questions by providing data scientists and analysts a problem-driven and data-centric analysis framework focusing on discovering actionable understanding from geographically referenced data. It makes extensive use of geospatial data wrangling, geoprocessing, spatial statistical, geospatial machine learning and spatial data visualisation techniques to support decision- and strategy-making.</p>
+<p>This course provides students with an introduction to the concepts, principles and methods of geospatial analytics and their practical applications of geospatial analytics in real world operations. Emphasis will be placed on:</p>
+<ul>
+<li><p>performing geospatial data science tasks such as importing, tidying, manipulating, transforming, projecting and processing geospatial data programmatically,</p></li>
+<li><p>visualising, analysing and describing geographical patterns and processes using appropriate geovisualisation and thematic mapping techniques,</p></li>
+<li><p>conducting geospatial analysis by using appropriate spatial statistics and Geomachine learning methods and</p></li>
+<li><p>communicating the geospatial analysis pipeline in a reproducible report.</p></li>
+</ul>
+</section>
+<section id="objectives" class="level1">
+<h1>Objectives</h1>
+<p>Upon completion of the course, students will be able to:</p>
+<ul>
+<li>Provide accurate explanation of the Mathematical and input data requirements of the analysis method(s) used,</li>
+<li>Import, extract, process, transform and assemble geospatial analytical sandbox programmatically,</li>
+<li>Apply appropriate geospatial analysis methods in addressing specific analysis needs,</li>
+<li>Document the entire geospatial analytics process in a reproducible manner, and</li>
+<li>Communicate the analysis results effectively and in an easy to understand manner with the help of appropriate geo- and data visualisation techniques.</li>
+</ul>
+<section id="course-structure" class="level2">
+<h2 class="anchored" data-anchor-id="course-structure">Course structure</h2>
+<section id="basic-modules" class="level3">
+<h3 class="anchored" data-anchor-id="basic-modules">Basic Modules</h3>
+<p>This course comprises ten integrated components as shown below:</p>
+<p><img src="img/image1.jpg" class="img-fluid"></p>
+</section>
+</section>
+<section id="grading-summary" class="level2">
+<h2 class="anchored" data-anchor-id="grading-summary">Grading Summary</h2>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Assignments / Assessment categories</th>
+<th>Weighting</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Class participation (including pre-lesson learning)</td>
+<td>15%</td>
+</tr>
+<tr class="even">
+<td>Hands-on Exercise (5% x 5)</td>
+<td>25%</td>
+</tr>
+<tr class="odd">
+<td>Take-home Exercise (15% x 4)</td>
+<td>60%</td>
+</tr>
+</tbody>
+</table>
+<section id="class-participation-15" class="level3">
+<h3 class="anchored" data-anchor-id="class-participation-15">Class Participation (15%)</h3>
+<p>Pre-lesson videos and recommended readings exercises will be released one week before the weekly lesson starts. A strict requirement for each class meeting is to complete the assigned readings and video before coming to class. Students are required write down at least one question or issue encountered while viewing the video or reading the recommended articles and raised them during the in-class discussion.</p>
+<p>Student sharing of insights from readings of assigned materials in class participation will form a large part of the learning in this course. Students may also be quizzed in class and thereby contribute to class participation.</p>
+</section>
+<section id="hands-on-exercise-25" class="level3">
+<h3 class="anchored" data-anchor-id="hands-on-exercise-25">Hands-on Exercise (25%)</h3>
+<p>Hands-on exercises aim to provide students to gain hands-on experience on using selected R packages to perform geospatial analysis with real world use cases. It is important for students to complete the hands-on exercises before class. This is because the in-class discussion will extend the methods learned from the hands-on exercise to advanced modelling. The in-class discussion will also focus on how to interpret the analysis results and to communicate the analysis results by using appropriate map and data visualisation techniques.</p>
+</section>
+<section id="take-home-exercise-60" class="level3">
+<h3 class="anchored" data-anchor-id="take-home-exercise-60">Take-home Exercise (60%)</h3>
+<p>There are four take-home exercises that are due throughout the term. They aim to provide students the opportunities to apply the methods learned in class by working through mini real-world cases. Each take-home exercise is an extension of the hands-on and in-class exercises. What this means is that, for example, in Lesson 1, students will learn the concept of spatial point processes and the hands-on exercise will provide students step-by-step guide on how to use R packages to perform spatial point patterns analysis. The in-class discussion, beside clarification of the concepts and usage of R packages syntax and argument, it will focus more on how to interpret and communicate the analysis results. Then the take-home exercise will require students to synthesise what they have learned from the readings, hands-on exercise and in-class exercise. The estimated workload will be about 6-8 hours per week.</p>
+<p>Each take-home exercise will carry a same weightage of 15%. The deliverable format of the take-home exercises and marking rubric of will be provided on the handout of the take-home exercise. Feedback on take-home exercise will be provided weekly before the weekly lesson starts. This is to ensure that students will learn from mistakes made in the earlier take-home exercise and improve their work progressively in the subsequent take-home exercises.</p>
+<p>Students may work together to help one another with computer or geospatial issues and discuss the materials that constitute the take-home exercise. However, each student is required to prepare and submit the take-home exercise (including any computer work) on their own. Cheating is strictly prohibited. Cheating includes but not limited to: plagiarism and submission of work that is not the student’s.</p>
+</section>
+<section id="final-exam" class="level3">
+<h3 class="anchored" data-anchor-id="final-exam">Final Exam</h3>
+<p>There will be no final examination for this course.</p>
+</section>
+</section>
+<section id="reference" class="level2">
+<h2 class="anchored" data-anchor-id="reference">Reference</h2>
+<ul>
+<li>Gimond, Manuel. (2018) <a href="https://mgimond.github.io/Spatial/">Introduction to GIS and Spatial Analysis</a>. (e-book, last visit: 11/11/2022).</li>
+<li>Floch, J.M., Marcon, E. and Puech, F. (2018) <a href="https://www.insee.fr/en/information/3635545">Handbook of Spatial Analysis: Theory and Application with R</a>.</li>
+<li>Roger S. Bivand, Edzer Pebesma and Virgilio Gómez-Rubio (2013) <a href="https://link-springer-com.libproxy.smu.edu.sg/book/10.1007/978-1-4614-7618-4">Applied Spatial Data Analysis with R</a> (2nd Edition), Springer. (via SMU Library)<br>
+</li>
+<li>Brunsdon, C. &amp; Comber, L (2019) <strong>An Introduction to R for Spatial Analysis and Mapping</strong> (2nd Edition), SAGE Publication, London.</li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

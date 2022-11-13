@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2022-11-13">
 
-<title>ISSS624 Applied Geospatial Analytics - Weekly Lesson Plan</title>
+<title>ISSS624 Applied Geospatial Analytics - Lesson 5: Geograpgically Weighted Machine Learning</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -18,22 +19,22 @@ ul.task-list{list-style: none;}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -55,7 +56,7 @@ ul.task-list{list-style: none;}
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -64,7 +65,7 @@ ul.task-list{list-style: none;}
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="./index.html">
+      <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">ISSS624 Applied Geospatial Analytics</span>
   </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -73,24 +74,24 @@ ul.task-list{list-style: none;}
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./syllabus.html">Syllabus</a>
+    <a class="nav-link" href="../syllabus.html">Syllabus</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./lesson.html" aria-current="page">Lesson Plan</a>
+    <a class="nav-link" href="../lesson.html">Lesson Plan</a>
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-take-home-exercise" role="button" data-bs-toggle="dropdown" aria-expanded="false">Take-home Exercise</a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-take-home-exercise">    
         <li>
-    <a class="dropdown-item" href="./Take-home_Ex01.html">
+    <a class="dropdown-item" href="../Take-home_Ex01.html">
  <span class="dropdown-text">Take-home Exercise 1</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./Take-home_Ex02.html">
+    <a class="dropdown-item" href="../Take-home_Ex02.html">
  <span class="dropdown-text">Take-home Exercise 2</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./Take-home_Ex03.html">
+    <a class="dropdown-item" href="../Take-home_Ex03.html">
  <span class="dropdown-text">Take-home Exercise 3</span></a>
   </li>  
     </ul>
@@ -98,10 +99,10 @@ ul.task-list{list-style: none;}
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./resources.html">Resources</a>
+    <a class="nav-link" href="../resources.html">Resources</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">Home</a>
+    <a class="nav-link" href="../index.html">Home</a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -114,14 +115,25 @@ ul.task-list{list-style: none;}
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#content" id="toc-content" class="nav-link" data-scroll-target="#content">Content</a></li>
+  <li><a href="#lesson-slides-and-hands-on-notes" id="toc-lesson-slides-and-hands-on-notes" class="nav-link" data-scroll-target="#lesson-slides-and-hands-on-notes">Lesson Slides and Hands-on Notes</a></li>
+  <li><a href="#self-reading-before-meet-up" id="toc-self-reading-before-meet-up" class="nav-link" data-scroll-target="#self-reading-before-meet-up">Self-reading Before Meet-up</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  <li><a href="#all-about-r" id="toc-all-about-r" class="nav-link" data-scroll-target="#all-about-r">All About R</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Weekly Lesson Plan</h1>
+<h1 class="title">Lesson 5: Geograpgically Weighted Machine Learning</h1>
 </div>
 
 
@@ -129,54 +141,73 @@ ul.task-list{list-style: none;}
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 13, 2022</p>
+    </div>
+  </div>
     
   </div>
   
 
 </header>
 
-<table class="table">
-<tbody>
-<tr class="odd">
-<td>Week</td>
-<td>Date</td>
-<td>Topic</td>
-<td>Student Assignment</td>
-</tr>
-<tr class="even">
-<td>1</td>
-<td>19/11/2022</td>
-<td><a href="outline/lesson1_outline.html">Spatial Weights and Applications</a></td>
-<td>Take-home Exercise 1</td>
-</tr>
-<tr class="odd">
-<td>2</td>
-<td>26/11/2022</td>
-<td><a href="outline/Lesson2_outline.html">Global and Local Measures of Spatial Autocorrelation</a></td>
-<td>Take-home Exercise 2</td>
-</tr>
-<tr class="even">
-<td>3</td>
-<td>3/12/2022</td>
-<td><a href="outline/Lesson3_outline.html">Geographic Segmentation with Spatially Constrained Cluster Analysis</a></td>
-<td>Take-home Exercise 3</td>
-</tr>
-<tr class="odd">
-<td>4</td>
-<td>10/12/2022</td>
-<td><a href="outline/Lesson4_outline.html">Geographically Weighted Regression</a></td>
-<td>Take-home Exercise 4</td>
-</tr>
-<tr class="even">
-<td>5</td>
-<td>17/12/2022</td>
-<td><a href="outline/Lesson5_outline.html">Geographically Weighted Machine Learning</a></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>In this lesson, you will learn the basic concepts and methods of machine learning techniques specially designed for geographical data. Upon completion of this lesson, you will able to:</p>
+<ul>
+<li>explain the similarities and differences between non-spatial Random Forest (RF) algorithm versus geographical weighted RF algorithm.</li>
+<li>calibrate predictive models by using appropriate geographically weighted RF algorithm for geographical data.</li>
+</ul>
+</section>
+<section id="content" class="level2">
+<h2 class="anchored" data-anchor-id="content">Content</h2>
+<ul>
+<li>Basic concepts and principles of recursive partitioning methods
+<ul>
+<li>Decision Tree and Regression Tree</li>
+<li>Random Forest and Bootstrap Forest</li>
+</ul></li>
+<li>Introducing Geographically Weighted Random Forest
+<ul>
+<li>Weighting functions (kernel)</li>
+<li>Weighting schemes</li>
+<li>Bandwidth</li>
+<li>Interpreting and Visualising</li>
+</ul></li>
+</ul>
+</section>
+<section id="lesson-slides-and-hands-on-notes" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-slides-and-hands-on-notes">Lesson Slides and Hands-on Notes</h2>
+<ul>
+<li><p>Lesson slides in <a href="../lesson/lesson05/lesson05-gwML.html">html</a> format</p></li>
+<li><p>Handout of Hands-on Exercise 5 in <a href="../Hands-on_Ex/Hands-on_Ex05/Hands-on_Ex05-gwML.html">html</a>.</p></li>
+</ul>
+</section>
+<section id="self-reading-before-meet-up" class="level2">
+<h2 class="anchored" data-anchor-id="self-reading-before-meet-up">Self-reading Before Meet-up</h2>
+<p>To read before class:</p>
+<ul>
+<li>Brunsdon, C., Fotheringham, A.S., and Charlton, M. (2002) “Geographically weighted regression: A method for exploring spatial nonstationarity”. Geographical Analysis, 28: 281-289.</li>
+<li>Brunsdon, C., Fotheringham, A.S. and Charlton, M., (1999) “Some Notes on Parametric Significance Tests for Geographically Weighted Regression”. Journal of Regional Science, 39(3), 497-524.</li>
+</ul>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<ul>
+<li>Kopczewska, Katarzyna (2021) <a href="https://link.springer.com/content/pdf/10.1007/s00168-021-01101-x.pdf">“Spatial machine learning: new opportunities for regional science”</a>, <em>The Annals of Regional Science</em> (2022) 68:713–755.</li>
+</ul>
+</section>
+<section id="all-about-r" class="level2">
+<h2 class="anchored" data-anchor-id="all-about-r">All About R</h2>
+<ul>
+<li><a href="https://cran.r-project.org/web/packages/SpatialML/index.html">SpatialML</a> package, especially the <a href="https://cran.r-project.org/web/packages/SpatialML/SpatialML.pdf">reference guide</a>.</li>
+<li><a href="https://blasbenito.github.io/spatialRF/index.html">spatialRF</a></li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -18,7 +18,7 @@
     "href": "lesson.html",
     "title": "Weekly Lesson Plan",
     "section": "",
-    "text": "Week\nDate\nTopic\nStudent Assignment\n\n\n1\n19/11/2022\nSpatial Point Patterns Analysis (SPPA)\nTake-home Exercise 1\n\n\n2\n26/11/2022\nGlobal and Local Measures of Spatial Autocorrelation\nTake-home Exercise 2\n\n\n3\n3/12/2022\nGeographic Segmentation with Spatially Constrained Cluster Analysis\nTake-home Exercise 3\n\n\n4\n10/12/2022\nGeographically Weighted Regression\nTake-home Exercise 4\n\n\n5\n17/12/2022\nModelling Geographic of Accessibility"
+    "text": "Week\nDate\nTopic\nStudent Assignment\n\n\n1\n19/11/2022\nSpatial Weights and Applications\nTake-home Exercise 1\n\n\n2\n26/11/2022\nGlobal and Local Measures of Spatial Autocorrelation\nTake-home Exercise 2\n\n\n3\n3/12/2022\nGeographic Segmentation with Spatially Constrained Cluster Analysis\nTake-home Exercise 3\n\n\n4\n10/12/2022\nGeographically Weighted Regression\nTake-home Exercise 4\n\n\n5\n17/12/2022\nGeographically Weighted Machine Learning"
   },
   {
     "objectID": "outline/Lesson1_outline.html",
@@ -173,5 +173,47 @@
     "title": "ISSS624 Applied Geospatial Analytics",
     "section": "Reference",
     "text": "Reference\n\nGimond, Manuel. (2018) Introduction to GIS and Spatial Analysis. (e-book, last visit: 11/11/2022).\nFloch, J.M., Marcon, E. and Puech, F. (2018) Handbook of Spatial Analysis: Theory and Application with R.\nRoger S. Bivand, Edzer Pebesma and Virgilio Gómez-Rubio (2013) Applied Spatial Data Analysis with R (2nd Edition), Springer. (via SMU Library)\n\nBrunsdon, C. & Comber, L (2019) An Introduction to R for Spatial Analysis and Mapping (2nd Edition), SAGE Publication, London."
+  },
+  {
+    "objectID": "outline/Lesson5_outline.html",
+    "href": "outline/Lesson5_outline.html",
+    "title": "Lesson 5: Geograpgically Weighted Machine Learning",
+    "section": "",
+    "text": "In this lesson, you will learn the basic concepts and methods of machine learning techniques specially designed for geographical data. Upon completion of this lesson, you will able to:\n\nexplain the similarities and differences between non-spatial Random Forest (RF) algorithm versus geographical weighted RF algorithm.\ncalibrate predictive models by using appropriate geographically weighted RF algorithm for geographical data."
+  },
+  {
+    "objectID": "outline/Lesson5_outline.html#content",
+    "href": "outline/Lesson5_outline.html#content",
+    "title": "Lesson 5: Geograpgically Weighted Machine Learning",
+    "section": "Content",
+    "text": "Content\n\nBasic concepts and principles of recursive partitioning methods\n\nDecision Tree and Regression Tree\nRandom Forest and Bootstrap Forest\n\nIntroducing Geographically Weighted Random Forest\n\nWeighting functions (kernel)\nWeighting schemes\nBandwidth\nInterpreting and Visualising"
+  },
+  {
+    "objectID": "outline/Lesson5_outline.html#lesson-slides-and-hands-on-notes",
+    "href": "outline/Lesson5_outline.html#lesson-slides-and-hands-on-notes",
+    "title": "Lesson 5: Geograpgically Weighted Machine Learning",
+    "section": "Lesson Slides and Hands-on Notes",
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson slides in html format\nHandout of Hands-on Exercise 5 in html."
+  },
+  {
+    "objectID": "outline/Lesson5_outline.html#self-reading-before-meet-up",
+    "href": "outline/Lesson5_outline.html#self-reading-before-meet-up",
+    "title": "Lesson 5: Geograpgically Weighted Machine Learning",
+    "section": "Self-reading Before Meet-up",
+    "text": "Self-reading Before Meet-up\nTo read before class:\n\nBrunsdon, C., Fotheringham, A.S., and Charlton, M. (2002) “Geographically weighted regression: A method for exploring spatial nonstationarity”. Geographical Analysis, 28: 281-289.\nBrunsdon, C., Fotheringham, A.S. and Charlton, M., (1999) “Some Notes on Parametric Significance Tests for Geographically Weighted Regression”. Journal of Regional Science, 39(3), 497-524."
+  },
+  {
+    "objectID": "outline/Lesson5_outline.html#references",
+    "href": "outline/Lesson5_outline.html#references",
+    "title": "Lesson 5: Geograpgically Weighted Machine Learning",
+    "section": "References",
+    "text": "References\n\nKopczewska, Katarzyna (2021) “Spatial machine learning: new opportunities for regional science”, The Annals of Regional Science (2022) 68:713–755."
+  },
+  {
+    "objectID": "outline/Lesson5_outline.html#all-about-r",
+    "href": "outline/Lesson5_outline.html#all-about-r",
+    "title": "Lesson 5: Geograpgically Weighted Machine Learning",
+    "section": "All About R",
+    "text": "All About R\n\nSpatialML package, especially the reference guide.\nspatialRF"
   }
 ]

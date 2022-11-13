@@ -1,0 +1,45 @@
+---
+title: "Lesson 5: Geograpgically Weighted Machine Learning"
+date: "`r Sys.Date()`"
+format: html
+---
+
+## Overview
+
+In this lesson, you will learn the basic concepts and methods of machine learning techniques specially designed for geographical data. Upon completion of this lesson, you will able to:
+
+-   explain the similarities and differences between non-spatial Random Forest (RF) algorithm versus geographical weighted RF algorithm.
+-   calibrate predictive models by using appropriate geographically weighted RF algorithm for geographical data.
+
+## Content
+
+-   Basic concepts and principles of recursive partitioning methods
+    -   Decision Tree and Regression Tree
+    -   Random Forest and Bootstrap Forest
+-   Introducing Geographically Weighted Random Forest
+    -   Weighting functions (kernel)
+    -   Weighting schemes
+    -   Bandwidth
+    -   Interpreting and Visualising
+
+## Lesson Slides and Hands-on Notes
+
+-   Lesson slides in [html](../lesson/lesson05/lesson05-gwML.html) format
+
+-   Handout of Hands-on Exercise 5 in [html](../Hands-on_Ex/Hands-on_Ex05/Hands-on_Ex05-gwML.html).
+
+## Self-reading Before Meet-up
+
+To read before class:
+
+-   Brunsdon, C., Fotheringham, A.S., and Charlton, M. (2002) "Geographically weighted regression: A method for exploring spatial nonstationarity". Geographical Analysis, 28: 281-289.
+-   Brunsdon, C., Fotheringham, A.S. and Charlton, M., (1999) "Some Notes on Parametric Significance Tests for Geographically Weighted Regression". Journal of Regional Science, 39(3), 497-524.
+
+## References
+
+-   Kopczewska, Katarzyna (2021) ["Spatial machine learning: new opportunities for regional science"](https://link.springer.com/content/pdf/10.1007/s00168-021-01101-x.pdf), *The Annals of Regional Science* (2022) 68:713--755.
+
+## All About R
+
+-   [SpatialML](https://cran.r-project.org/web/packages/SpatialML/index.html) package, especially the [reference guide](https://cran.r-project.org/web/packages/SpatialML/SpatialML.pdf).
+-   [spatialRF](https://blasbenito.github.io/spatialRF/index.html)

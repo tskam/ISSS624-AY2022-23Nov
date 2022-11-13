@@ -4,7 +4,6 @@ date: "`r Sys.Date()`"
 format: html
 ---
 
-
 ## Overview
 
 In this lesson, you will learn the basic concepts and methods of geographically weighted regression.

@@ -6,8 +6,7 @@ format: html
 
 ## Overview
 
-Computing spatial weight is an essential step toward measuring the strength of the spatial relationships between objects.  In this lesson, the basic concept of spatial weight will be introduced.  This is followed by a discussion of methods to compute spatial weights.
-
+Computing spatial weight is an essential step toward measuring the strength of the spatial relationships between objects. In this lesson, the basic concept of spatial weight will be introduced. This is followed by a discussion of methods to compute spatial weights.
 
 ## Content
 
@@ -23,7 +22,9 @@ Computing spatial weight is an essential step toward measuring the strength of t
 ## Lesson Slides and Hands-on Notes
 
 -   Slides in [html](../lesson/Lesson1/Lesson1-Spatial_Weights.html) format.
--   Handout of Hands-on Exercise 1 in [html](../Hands-on_Ex/Hands-on_Ex01/Hands-on_Ex01-SWsA.html)
+-   Handout of hands-on exercises:
+    - [Geospatial Data Wrangling with R](https://r4gdsa.netlify.app/chap01.html)
+    - [Choropleth Mapping with R](https://r4gdsa.netlify.app/chap02.html)
 
 ### Self-reading Before Meet-up
 

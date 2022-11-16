@@ -39,7 +39,7 @@
     "href": "outline/Lesson1_outline.html#lesson-slides-and-hands-on-notes",
     "title": "Lesson 1: Spatial Weights and Applications",
     "section": "Lesson Slides and Hands-on Notes",
-    "text": "Lesson Slides and Hands-on Notes\n\nSlides in html format.\nHandout of Hands-on Exercise 1 in html\n\n\nSelf-reading Before Meet-up\nTo read before class:\n\nChapter 2. Codifying the neighbourhood structure of Handbook of Spatial Analysis: Theory and Application with R.\n\nAlternatively\n\nChapter 9: Modelling Areal Data of Applied Spatial Data Analysis with R (2nd Edition). This book is available in smu digital library. Until section 9.3.1."
+    "text": "Lesson Slides and Hands-on Notes\n\nSlides in html format.\nHandout of hands-on exercises:\n\nGeospatial Data Wrangling with R\nChoropleth Mapping with R\n\n\n\nSelf-reading Before Meet-up\nTo read before class:\n\nChapter 2. Codifying the neighbourhood structure of Handbook of Spatial Analysis: Theory and Application with R.\n\nAlternatively\n\nChapter 9: Modelling Areal Data of Applied Spatial Data Analysis with R (2nd Edition). This book is available in smu digital library. Until section 9.3.1."
   },
   {
     "objectID": "outline/Lesson1_outline.html#references",

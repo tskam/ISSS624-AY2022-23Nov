@@ -292,47 +292,5 @@
     "title": "Take-home Exercise 1: Geospatial Analytics for Social Good",
     "section": "Peer Learning",
     "text": "Peer Learning"
-  },
-  {
-    "objectID": "lesson/Lesson1/lesson1.html#content",
-    "href": "lesson/Lesson1/lesson1.html#content",
-    "title": "Lesson 1: Spatial Weights and Applications",
-    "section": "Content",
-    "text": "Content\n\nIntroduction to Spatial Weights\nContiguity-Based Spatial Weights\n\nRook’s\nQueen’s\n\nDistance-Band Spatial Weights\nApplications of Spatial Weights\n\n\nThis lesson consists of three main sections. First, I am going to explain the basic concept of spatial weights. This is followed by a discussion on various methods used to compute spatial weights. Lastly, the applications of spatial weights will be discussed."
-  },
-  {
-    "objectID": "lesson/Lesson1/lesson1.html#what-is-geographically-referenced-attribute",
-    "href": "lesson/Lesson1/lesson1.html#what-is-geographically-referenced-attribute",
-    "title": "Lesson 1: Spatial Weights and Applications",
-    "section": "What is geographically referenced attribute?",
-    "text": "What is geographically referenced attribute?\n\n\n\n\n\n\nA kind of data that is very similar to an ordinary data. The only difference is that each observation is associated with some form of geography such as numbers of aged population by planning subzone."
-  },
-  {
-    "objectID": "lesson/Lesson1/lesson1.html#what-are-spatial-weights-wij",
-    "href": "lesson/Lesson1/lesson1.html#what-are-spatial-weights-wij",
-    "title": "Lesson 1: Spatial Weights and Applications",
-    "section": "What are Spatial Weights (wij)",
-    "text": "What are Spatial Weights (wij)\n\nA way to define spatial neighbourhood."
-  },
-  {
-    "objectID": "lesson/Lesson1/lesson1.html#applications-of-spatial-weights",
-    "href": "lesson/Lesson1/lesson1.html#applications-of-spatial-weights",
-    "title": "Lesson 1: Spatial Weights and Applications",
-    "section": "Applications of Spatial Weights",
-    "text": "Applications of Spatial Weights\nFormally, for observation i, the spatial lag of yi, referred to as [Wy]i (the variable Wy observed for location i) is:\n\nwhere the weights wij consist of the elements of the i-th row of the matrix W, matched up with the corresponding elements of the vector y.\n\nWith a neighbor structure defined by the non-zero elements of the spatial weights matrix W, a spatially lagged variable is a weighted sum or a weighted average of the neighboring values for that variable. In most commonly used notation, the spatial lag of y is then expressed as Wy."
-  },
-  {
-    "objectID": "lesson/Lesson1/lesson1.html#references",
-    "href": "lesson/Lesson1/lesson1.html#references",
-    "title": "Lesson 1: Spatial Weights and Applications",
-    "section": "References",
-    "text": "References\n\nChapter 2. Codifying the neighbourhood structure of Handbook of Spatial Analysis: Theory and Application with R.\nFrançois Bavaud (2010) “Models for Spatial Weights: A Systematic Look” Geographical Analysis, Vol. 30, No.2, pp 153-171.\nTony H. Grubesic and Andrea L. Rosso (2014) “The Use of Spatially Lagged Explanatory Variables for Modeling Neighborhood Amenities and Mobility in Older Adults”, Cityscape, Vol. 16, No. 2, pp. 205-214."
-  },
-  {
-    "objectID": "outline/Lesson1_outline.html#lesson-slides",
-    "href": "outline/Lesson1_outline.html#lesson-slides",
-    "title": "Lesson 1: Spatial Weights and Applications",
-    "section": "Lesson Slides",
-    "text": "Lesson Slides\nLesson slides in html format."
   }
 ]

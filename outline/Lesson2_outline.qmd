@@ -30,11 +30,9 @@ These spatial statistics are well suited for:
     -   Getis and Ord's G-statistics
 -   Case Studies
 
-## Lesson Slides and Hands-on Notes
+## Hands-on Exercise
 
--   Lesson slides in [html](../lesson/Lesson07/Lesson07-SpaAuto.html) and [pdf](../lesson/Lesson07/Lesson07-SpaAuto.pdf) formats
-
--   Handout of Hands-on Exercise 7 in [html](../Hands-on_Ex/Hands-on_Ex07/Hands-on_Ex07-GLSA.html) and in [pdf](../Hands-on_Ex/Hands-on_Ex07/Hands-on_Ex07-GLSA.pdf) formats.
+-   [Global and Local Measures of Spatial Autocorrelation](https://r4gdsa.netlify.app/chap04.html)
 
 ## Self-reading Before Meet-up
 

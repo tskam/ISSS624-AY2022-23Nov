@@ -18,7 +18,7 @@
     "href": "lesson.html",
     "title": "Weekly Lesson Plan",
     "section": "",
-    "text": "Week\nDate\nTopic\nStudent Assignment\n\n\n1\n19/11/2022\nSpatial Weights and Applications\nTake-home Exercise 1\n\n\n2\n26/11/2022\nGlobal and Local Measures of Spatial Autocorrelation\nTake-home Exercise 2\n\n\n3\n3/12/2022\nGeographic Segmentation with Spatially Constrained Cluster Analysis\nTake-home Exercise 3\n\n\n4\n10/12/2022\nGeographically Weighted Regression\nTake-home Exercise 4\n\n\n5\n17/12/2022\nGeographically Weighted Machine Learning"
+    "text": "Week\nDate\nTopic\nStudent Assignment\n\n\n\n\n1\n19/11/2022\nSpatial Weights and Applications\n\n\n\n2\n26/11/2022\nGlobal and Local Measures of Spatial Autocorrelation\nTake-home Exercise 1\n\n\n3\n3/12/2022\nGeographic Segmentation with Spatially Constrained Cluster Analysis\nTake-home Exercise 2\n\n\n4\n10/12/2022\nGeographically Weighted Regression\nTake-home Exercise 3\n\n\n5\n17/12/2022\nGeographically Weighted Machine Learning"
   },
   {
     "objectID": "outline/Lesson1_outline.html",
@@ -35,11 +35,11 @@
     "text": "Content\n\nTobler’s First law of Geography\nPrinciples of Spatial Autocorrelation\nConcepts of Spatial Proximity and Spatial Weights\n\nContiguity-Based Spatial Weights: Rook’s & Queen’s\nDistance-Band Spatial Weights: fixed and adaptive\n\nApplications of Spatial Weights\n\nGlobal measures of spatial autocorrelation\nCorrelogram"
   },
   {
-    "objectID": "outline/Lesson1_outline.html#lesson-slides-and-hands-on-notes",
-    "href": "outline/Lesson1_outline.html#lesson-slides-and-hands-on-notes",
+    "objectID": "outline/Lesson1_outline.html#hands-on-exercise",
+    "href": "outline/Lesson1_outline.html#hands-on-exercise",
     "title": "Lesson 1: Spatial Weights and Applications",
-    "section": "Lesson Slides and Hands-on Notes",
-    "text": "Lesson Slides and Hands-on Notes\n\nSlides in pdf format.\nHandout of hands-on exercises:\n\nGeospatial Data Wrangling with R\nChoropleth Mapping with R\n\n\n\nSelf-reading Before Meet-up\nTo read before class:\n\nChapter 2. Codifying the neighbourhood structure of Handbook of Spatial Analysis: Theory and Application with R.\n\nAlternatively\n\nChapter 9: Modelling Areal Data of Applied Spatial Data Analysis with R (2nd Edition). This book is available in smu digital library. Until section 9.3.1."
+    "section": "Hands-on Exercise",
+    "text": "Hands-on Exercise\n\nGeospatial Data Wrangling with R\nChoropleth Mapping with R\n\n\nSelf-reading Before Meet-up\nTo read before class:\n\nChapter 2. Codifying the neighbourhood structure of Handbook of Spatial Analysis: Theory and Application with R.\n\nAlternatively\n\nChapter 9: Modelling Areal Data of Applied Spatial Data Analysis with R (2nd Edition). This book is available in smu digital library. Until section 9.3.1."
   },
   {
     "objectID": "outline/Lesson1_outline.html#references",
@@ -70,11 +70,11 @@
     "text": "Content\n\nWhat is Spatial Autocorrelation\n\nMeasures of Global Spatial Autocorrelation\nMeasures of Global High/Low Clustering\n\nIntroducing Localised Geospatial Analysis\n\nLocal Indicators of Spatial Association (LISA)\n\nCluster and Outlier Analysis\n\nLocal Moran and Local Geary\nMoran scatterplot\nLISA Cluster Map\n\nHot Spot and Cold Spot Areas Analysis\n\nGetis and Ord’s G-statistics\n\nCase Studies"
   },
   {
-    "objectID": "outline/Lesson2_outline.html#lesson-slides-and-hands-on-notes",
-    "href": "outline/Lesson2_outline.html#lesson-slides-and-hands-on-notes",
+    "objectID": "outline/Lesson2_outline.html#hands-on-exercise",
+    "href": "outline/Lesson2_outline.html#hands-on-exercise",
     "title": "Lesson 2: Global and Local Measures of Spatial Autocorrelation",
-    "section": "Lesson Slides and Hands-on Notes",
-    "text": "Lesson Slides and Hands-on Notes\n\nLesson slides in html and pdf formats\nHandout of Hands-on Exercise 7 in html and in pdf formats."
+    "section": "Hands-on Exercise",
+    "text": "Hands-on Exercise\n\nGlobal and Local Measures of Spatial Autocorrelation"
   },
   {
     "objectID": "outline/Lesson2_outline.html#self-reading-before-meet-up",
@@ -215,5 +215,82 @@
     "title": "ISSS624 Applied Geospatial Analytics",
     "section": "Reference",
     "text": "Reference\n\nGimond, Manuel. (2018) Introduction to GIS and Spatial Analysis. (e-book, last visit: 11/11/2022).\nFloch, J.M., Marcon, E. and Puech, F. (2018) Handbook of Spatial Analysis: Theory and Application with R.\nRoger S. Bivand, Edzer Pebesma and Virgilio Gómez-Rubio (2013) Applied Spatial Data Analysis with R (2nd Edition), Springer. (via SMU Library)\n\nBrunsdon, C. & Comber, L (2019) An Introduction to R for Spatial Analysis and Mapping (2nd Edition), SAGE Publication, London."
+  },
+  {
+    "objectID": "Take-home_Ex01.html",
+    "href": "Take-home_Ex01.html",
+    "title": "Take-home Exercise 1: Geospatial Analytics for Social Good",
+    "section": "",
+    "text": "Water is an important resource to mankind. Clean and accessible water is critical to human health. It provides a healthy environment, a sustainable economy, reduces poverty and ensures peace and security. Yet over 40% of the global population does not have access to sufficient clean water. By 2025, 1.8 billion people will be living in countries or regions with absolute water scarcity, according to UN-Water. The lack of water poses a major threat to several sectors, including food security. Agriculture uses about 70% of the world’s accessible freshwater.\nDeveloping countries are most affected by water shortages and poor water quality. Up to 80% of illnesses in the developing world are linked to inadequate water and sanitation. Despite technological advancement, providing clean water to the rural community is still a major development issues in many countries globally, especially countries in the Africa continent.\nTo address the issue of providing clean and sustainable water supply to the rural community, a global Water Point Data Exchange (WPdx) project has been initiated. The main aim of this initiative is to collect water point related data from rural areas at the water point or small water scheme level and share the data via WPdx Data Repository, a cloud-based data library. What is so special of this project is that data are collected based on WPDx Data Standard."
+  },
+  {
+    "objectID": "Take-home_Ex01.html#objectives",
+    "href": "Take-home_Ex01.html#objectives",
+    "title": "Take-home Exercise 1: Geospatial Analytics for Social Good",
+    "section": "Objectives",
+    "text": "Objectives\nGeospatial analytics hold tremendous potential to address complex problems facing society. In this study, you are tasked to apply appropriate global and local measures of spatial Association techniques to reveals the spatial patterns of Not Functional water points. For the purpose of this study, Nigeria will be used as the study country."
+  },
+  {
+    "objectID": "Take-home_Ex01.html#the-data",
+    "href": "Take-home_Ex01.html#the-data",
+    "title": "Take-home Exercise 1: Geospatial Analytics for Social Good",
+    "section": "The Data",
+    "text": "The Data\n\nApstial data\nFor the purpose of this assignment, data from WPdx Global Data Repositories will be used. There are two versions of the data. They are: WPdx-Basic and WPdx+. You are required to use WPdx+ data set.\n\n\nGeospatial data\nNigeria Level-2 Administrative Boundary (also known as Local Government Area) polygon features GIS data will be used in this take-home exercise. The data can be downloaded either from The Humanitarian Data Exchange portal or geoBoundaries."
+  },
+  {
+    "objectID": "Take-home_Ex01.html#the-task",
+    "href": "Take-home_Ex01.html#the-task",
+    "title": "Take-home Exercise 1: Geospatial Analytics for Social Good",
+    "section": "The Task",
+    "text": "The Task\nThe specific tasks of this take-home exercise are as follows:\n\nUsing appropriate sf method, import the shapefile into R and save it in a simple feature data frame format. Note that there are three Projected Coordinate Systems of Nigeria, they are: EPSG: 26391, 26392, and 26303. You can use any one of them.\nUsing appropriate tidyr and dplyr methods, derive the proportion of functional and non-functional water point at LGA level.\nCombining the geospatial and aspatial data frame into simple feature data frame.\nPerforming outliers/clusters analysis by using appropriate local measures of spatial association methods.\nPerforming hotspot areas analysis by using appropriate local measures of spatial association methods.\n\n\nThematic Mapping\n\nPlot maps to show the spatial distribution of functional and non-functional water point rate at LGA level by using appropriate thematic mapping technique provided by tmap package.\n\n\n\nAnalytical Mapping\n\nPlot hotspot areas and outliers/clusters maps of functional and non0functional water point rate at LGA level by using appropriate thematic mapping technique provided by tmap package."
+  },
+  {
+    "objectID": "Take-home_Ex01.html#grading-criteria",
+    "href": "Take-home_Ex01.html#grading-criteria",
+    "title": "Take-home Exercise 1: Geospatial Analytics for Social Good",
+    "section": "Grading Criteria",
+    "text": "Grading Criteria\nThis exercise will be graded by using the following criteria:\n\nGeospatial Data Wrangling (20 marks): This is an important aspect of geospatial analytics. You will be assessed on your ability to employ appropriate R functions from various R packages specifically designed for modern data science such as readr, tidyverse (tidyr, dplyr, ggplot2), sf just to mention a few of them, to perform the entire geospatial data wrangling processes, including. This is not limited to data import, data extraction, data cleaning and data transformation. Besides assessing your ability to use the R functions, this criterion also includes your ability to clean and derive appropriate variables to meet the analysis need. (Warning: All data are like vast grassland full of land mines. Your job is to clear those mines and not to step on them).\nGeospatial Analysis (30 marks): In this exercise, you are expected to use the appropriate thematic and analytics mapping techniques and R functions introduced in class to analysis the geospatial data prepared. You will be assessed on your ability to derive analytical maps by using appropriate rate mapping techniques.\nGeovisualisation (20 marks): In this section, you will be assessed on your ability to communicate the complex spatial statistics results in business friendly visual representations. This course is geospatial centric, hence, it is important for you to demonstrate your competency in using appropriate geovisualisation techniques to reveal and communicate the findings of your analysis.\nReproducibility (20 marks): This is an important learning outcome of this exercise. You will be assessed on your ability to provide a comprehensive documentation of the analysis procedures in the form of code chunks of RMarkdown. It is important to note that it is not enough by merely providing the code chunk without any explanation on the purpose and R function(s) used.\nBonus (10 marks): Demonstrate your ability to employ methods beyond what you had learned in class to gain insights from the data. The methods used must be geospatial in nature."
+  },
+  {
+    "objectID": "Take-home_Ex01.html#submission-instructions",
+    "href": "Take-home_Ex01.html#submission-instructions",
+    "title": "Take-home Exercise 1: Geospatial Analytics for Social Good",
+    "section": "Submission Instructions",
+    "text": "Submission Instructions\n\nThe write-up of the take-home exercise must be in distill or blogdown format. You are required to publish the write-up on Netlify.\nThe R project of the take-home exercise must be pushed onto your Github repository.\nYou are required to provide the links to Netlify service of the take-home exercise write-up and github repository on eLearn."
+  },
+  {
+    "objectID": "Take-home_Ex01.html#due-date",
+    "href": "Take-home_Ex01.html#due-date",
+    "title": "Take-home Exercise 1: Geospatial Analytics for Social Good",
+    "section": "Due Date",
+    "text": "Due Date\n29th November 2022 (Tuesday), 11.59pm (midnight)."
+  },
+  {
+    "objectID": "Take-home_Ex01.html#reference",
+    "href": "Take-home_Ex01.html#reference",
+    "title": "Take-home Exercise 1: Geospatial Analytics for Social Good",
+    "section": "Reference",
+    "text": "Reference"
+  },
+  {
+    "objectID": "Take-home_Ex01.html#learning-from-senior",
+    "href": "Take-home_Ex01.html#learning-from-senior",
+    "title": "Take-home Exercise 1: Geospatial Analytics for Social Good",
+    "section": "Learning from senior",
+    "text": "Learning from senior"
+  },
+  {
+    "objectID": "Take-home_Ex01.html#q-a",
+    "href": "Take-home_Ex01.html#q-a",
+    "title": "Take-home Exercise 1: Geospatial Analytics for Social Good",
+    "section": "Q & A",
+    "text": "Q & A"
+  },
+  {
+    "objectID": "Take-home_Ex01.html#peer-learning",
+    "href": "Take-home_Ex01.html#peer-learning",
+    "title": "Take-home Exercise 1: Geospatial Analytics for Social Good",
+    "section": "Peer Learning",
+    "text": "Peer Learning"
   }
 ]

@@ -19,6 +19,10 @@ Computing spatial weight is an essential step toward measuring the strength of t
     -   Global measures of spatial autocorrelation
     -   Correlogram
 
+## Lesson Slides
+
+Lesson slides in [html](/lesson/Lesson1/lesson1.html) format.
+
 ## Hands-on Exercise
 
 -   [Geospatial Data Wrangling with R](https://r4gdsa.netlify.app/chap01.html)

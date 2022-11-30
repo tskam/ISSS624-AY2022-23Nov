@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2022-11-27">
+<meta name="dcterms.date" content="2022-12-01">
 
 <title>ISSS624 Applied Geospatial Analytics - Lesson 3: Geographic Segmentation with Spatially Constrained Cluster Analysis</title>
 <style>
@@ -121,7 +121,7 @@ ul.task-list{list-style: none;}
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
   <li><a href="#content" id="toc-content" class="nav-link" data-scroll-target="#content">Content</a></li>
-  <li><a href="#lesson-slides-and-hands-on-notes" id="toc-lesson-slides-and-hands-on-notes" class="nav-link" data-scroll-target="#lesson-slides-and-hands-on-notes">Lesson Slides and Hands-on Notes</a>
+  <li><a href="#hands-on-exercise" id="toc-hands-on-exercise" class="nav-link" data-scroll-target="#hands-on-exercise">Hands-on Exercise</a>
   <ul class="collapse">
   <li><a href="#self-reading-before-meet-up" id="toc-self-reading-before-meet-up" class="nav-link" data-scroll-target="#self-reading-before-meet-up">Self-reading Before Meet-up</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
@@ -146,7 +146,7 @@ ul.task-list{list-style: none;}
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 27, 2022</p>
+      <p class="date">December 1, 2022</p>
     </div>
   </div>
     
@@ -170,17 +170,17 @@ ul.task-list{list-style: none;}
 </ul></li>
 </ul>
 </section>
-<section id="lesson-slides-and-hands-on-notes" class="level2">
-<h2 class="anchored" data-anchor-id="lesson-slides-and-hands-on-notes">Lesson Slides and Hands-on Notes</h2>
+<section id="hands-on-exercise" class="level2">
+<h2 class="anchored" data-anchor-id="hands-on-exercise">Hands-on Exercise</h2>
 <ul>
-<li><p>Lesson slides in <a href="../lesson/Lesson08/Lesson08-GeoKDD.html">html</a> and <a href="../lesson/Lesson08/Lesson08-GeoKDD.pdf">pdf</a> formats</p></li>
-<li><p>Handout of Hands-on Exercise 8 in <a href="../Hands-on_Ex/Hands-on_Ex08/Hands-on_Ex08-GeoClust.html">html</a> and <a href="../Hands-on_Ex/Hands-on_Ex08/Hands-on_Ex08-GeoClust.pdf">pdf</a> formats.</p></li>
+<li><a href="https://r4gdsa.netlify.app/chap05.html">5 Geographical Segmentation with Spatially Constrained Clustering Techniques</a></li>
 </ul>
 <section id="self-reading-before-meet-up" class="level3">
 <h3 class="anchored" data-anchor-id="self-reading-before-meet-up">Self-reading Before Meet-up</h3>
 <p>To read before class:</p>
 <ul>
-<li>Assuncao, R. M., Neves, M.C., Camara, G. and Costa Freitas, C.D. 2006. “Efficient Regionalization Techniques for Socio-Economic Geographical Units Using Minimum Spanning Trees.” International Journal of Geographical Information Science 20: 797–811.</li>
+<li><p>Assuncao, R. M., Neves, M.C., Camara, G. and Costa Freitas, C.D. 2006. “Efficient Regionalization Techniques for Socio-Economic Geographical Units Using Minimum Spanning Trees”. <em>International Journal of Geographical Information Science</em> 20: 797-811. (Available in SMU digital library)</p></li>
+<li><p>Chavent, M., Kuentz-Simonet, V., Labenne,A. and Saracco, J. 2018. “ClustGeo: an R package for hierarchical clustering with spatial constraints” <em>Computational Statistics</em>, 33: 1799-1822. (Available in SMU digital library)</p></li>
 </ul>
 </section>
 <section id="references" class="level3">
@@ -190,6 +190,8 @@ ul.task-list{list-style: none;}
 </li>
 <li>Demeter, T. and Bratucu, G. (2013) <a href="https://search-proquest-com.libproxy.smu.edu.sg/docview/1510289237?rfr_id=info%3Axri%2Fsid%3Aprimo">“Statistical Analysis Of The EU Countries from A Touristic Point of View”</a>, Bulletin of the Transilvania University of Braşov, 6(55): 121-130.</li>
 <li>Brown, N.S. &amp; Watson, P. (2012) <a href="https://ageconsearch.umn.edu/record/176591/files/WEFFall2012v11n2_Brown.pdf">“What can a comprehensive plan really tell us about a region?: A cluster analysis of county comprehensive plans in Idaho”</a>, Western Economics Forum. Pp.22-37.</li>
+<li>Jaya, I.G.M., Ruchjana, B.N., Andriyana, Y. &amp; Agata, R (2019) <a href="https://iopscience.iop.org/article/10.1088/1742-6596/1397/1/012068">“Clustering with spatial constraints: The case of diarrhea in Bandung city, Indonesia”</a></li>
+<li>de Souza, D. C. &amp; Taconeli, C. A. (2022) “Spatial and non-spatial clustering algorithm in the analysis of Brazilian educational data”, <em>Communications in Statistics: Case Studies, Data Analysis, and Applications</em>. Vol. 8, No.&nbsp;4, 588-606. (Available in SMU digital library)</li>
 </ul>
 </section>
 <section id="all-about-r" class="level3">
@@ -200,7 +202,6 @@ ul.task-list{list-style: none;}
 <li><a href="https://cran.r-project.org/web/packages/ClustGeo/index.html">ClustGeo: Hierarchical Clustering with Spatial Constraints</a>
 <ul>
 <li><a href="https://cran.r-project.org/web/packages/ClustGeo/vignettes/intro_ClustGeo.html">Introduction to Clustgeo</a></li>
-<li>Chavent, M., Kuentz-Simonet, V., Labenne,A. and Saracco, J. 2018. “ClustGeo: an R package for hierarchical clustering with spatial constraints” <em>Computational Statistics</em>, 33: 1799-1822.</li>
 </ul></li>
 </ul>
 

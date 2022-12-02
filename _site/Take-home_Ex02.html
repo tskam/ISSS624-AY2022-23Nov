@@ -114,7 +114,28 @@ ul.task-list{list-style: none;}
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#setting-the-scene" id="toc-setting-the-scene" class="nav-link active" data-scroll-target="#setting-the-scene">Setting the Scene</a></li>
+  <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">Objectives</a></li>
+  <li><a href="#the-data" id="toc-the-data" class="nav-link" data-scroll-target="#the-data">The Data</a>
+  <ul class="collapse">
+  <li><a href="#apstial-data" id="toc-apstial-data" class="nav-link" data-scroll-target="#apstial-data">Apstial data</a></li>
+  <li><a href="#geospatial-data" id="toc-geospatial-data" class="nav-link" data-scroll-target="#geospatial-data">Geospatial data</a></li>
+  </ul></li>
+  <li><a href="#the-task" id="toc-the-task" class="nav-link" data-scroll-target="#the-task">The Task</a>
+  <ul class="collapse">
+  <li><a href="#thematic-mapping" id="toc-thematic-mapping" class="nav-link" data-scroll-target="#thematic-mapping">Thematic Mapping</a></li>
+  <li><a href="#analytical-mapping" id="toc-analytical-mapping" class="nav-link" data-scroll-target="#analytical-mapping">Analytical Mapping</a></li>
+  </ul></li>
+  <li><a href="#grading-criteria" id="toc-grading-criteria" class="nav-link" data-scroll-target="#grading-criteria">Grading Criteria</a></li>
+  <li><a href="#submission-instructions" id="toc-submission-instructions" class="nav-link" data-scroll-target="#submission-instructions">Submission Instructions</a></li>
+  <li><a href="#due-date" id="toc-due-date" class="nav-link" data-scroll-target="#due-date">Due Date</a></li>
+  <li><a href="#peer-learning" id="toc-peer-learning" class="nav-link" data-scroll-target="#peer-learning">Peer Learning</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -135,8 +156,85 @@ ul.task-list{list-style: none;}
 
 </header>
 
+<section id="setting-the-scene" class="level2">
+<h2 class="anchored" data-anchor-id="setting-the-scene">Setting the Scene</h2>
+<p>The process of creating regions is called <a href="https://www.researchgate.net/publication/28153673_Supervised_Regionalization_Methods_A_Survey/link/0fcfd5094046b13d35000000/download">regionalisation</a>. A regionalisation is a special kind of clustering where the objective is to group observations which are similar in their statistical attributes, but also in their spatial location. In this sense, regionalization embeds the same logic as standard clustering techniques, but also applies a series of geographical constraints. Often, these constraints relate to connectivity: two candidates can only be grouped together in the same region if there exists a path from one member to another member that never leaves the region. These paths often model the spatial relationships in the data, such as contiguity or proximity. However, connectivity does not always need to hold for all regions, and in certain contexts it makes sense to relax connectivity or to impose different types of geographic constraints.</p>
+</section>
+<section id="objectives" class="level2">
+<h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
+<p>In this take-home exercise you are required to regionalise Nigeria by using, but not limited to the following measures:</p>
+<ul>
+<li>Total number of functional water points</li>
+<li>Total number of nonfunctional water points</li>
+<li>Percentage of functional water points</li>
+<li>Percentage of non-functional water points</li>
+<li>Percentage of main water point technology (i.e.&nbsp;Hand Pump)</li>
+<li>Percentage of usage capacity (i.e.&nbsp;&lt; 1000, &gt;=1000)</li>
+<li>Percentage of rural water points</li>
+</ul>
+</section>
+<section id="the-data" class="level2">
+<h2 class="anchored" data-anchor-id="the-data">The Data</h2>
+<section id="apstial-data" class="level3">
+<h3 class="anchored" data-anchor-id="apstial-data">Apstial data</h3>
+<p>For the purpose of this assignment, data from <a href="https://www.waterpointdata.org/access-data/">WPdx Global Data Repositories</a> will be used. There are two versions of the data. They are: WPdx-Basic and WPdx+. You are required to use WPdx+ data set.</p>
+</section>
+<section id="geospatial-data" class="level3">
+<h3 class="anchored" data-anchor-id="geospatial-data">Geospatial data</h3>
+<p>Nigeria Level-2 Administrative Boundary (also known as Local Government Area) polygon features GIS data will be used in this take-home exercise. The data can be downloaded either from The <a href="https://data.humdata.org/">Humanitarian Data Exchange</a> portal or <a href="https://www.geoboundaries.org/index.html">geoBoundaries</a>.</p>
+</section>
+</section>
+<section id="the-task" class="level2">
+<h2 class="anchored" data-anchor-id="the-task">The Task</h2>
+<p>The specific tasks of this take-home exercise are as follows:</p>
+<ul>
+<li>Using appropriate sf method, import the shapefile into R and save it in a simple feature data frame format. Note that there are three Projected Coordinate Systems of Nigeria, they are: EPSG: 26391, 26392, and 26303. You can use any one of them.</li>
+<li>Using appropriate tidyr and dplyr methods, derive the proportion of functional and non-functional water point at LGA level (i.e.&nbsp;ADM2).</li>
+<li>Combining the geospatial and aspatial data frame into simple feature data frame.</li>
+<li>Delineating water point measures functional regions by using conventional hierarchical clustering.</li>
+<li>Delineating water point measures functional regions by using spatially constrained clustering algorithms.</li>
+</ul>
+<section id="thematic-mapping" class="level3">
+<h3 class="anchored" data-anchor-id="thematic-mapping">Thematic Mapping</h3>
+<ul>
+<li>Plot to show the water points measures derived by using appropriate statistical graphics and choropleth mapping technique.</li>
+</ul>
+</section>
+<section id="analytical-mapping" class="level3">
+<h3 class="anchored" data-anchor-id="analytical-mapping">Analytical Mapping</h3>
+<ul>
+<li>Plot functional regions delineated by using both non-spatially constrained and spatially constrained clustering algorithms.</li>
+</ul>
+</section>
+</section>
+<section id="grading-criteria" class="level2">
+<h2 class="anchored" data-anchor-id="grading-criteria">Grading Criteria</h2>
+<p>This exercise will be graded by using the following criteria:</p>
+<ul>
+<li><p><strong>Geospatial Data Wrangling (20 marks):</strong> This is an important aspect of geospatial analytics. You will be assessed on your ability to employ appropriate R functions from various R packages specifically designed for modern data science such as readr, tidyverse (tidyr, dplyr, ggplot2), sf just to mention a few of them, to perform the entire geospatial data wrangling processes, including. This is not limited to data import, data extraction, data cleaning and data transformation. Besides assessing your ability to use the R functions, this criterion also includes your ability to clean and derive appropriate variables to meet the analysis need. (Warning: All data are like vast grassland full of land mines. Your job is to clear those mines and not to step on them).</p></li>
+<li><p><strong>Geospatial Analysis (25 marks):</strong> In this exercise, you are expected to use the appropriate clustering methods and R packages functions introduced in class to regionalise the study area. You will be assessed on your ability to apply the methods learned correctly and efficiently.</p></li>
+<li><p><strong>Geovisualisation and Geocommunication (25 marks):</strong> In this section, you will be assessed on your ability to communicate the complex spatial statistics results in business friendly visual representations. This course is geospatial centric, hence, it is important for you to demonstrate your competency in using appropriate geovisualisation techniques to reveal and communicate the findings of your analysis.</p></li>
+<li><p><strong>Reproducibility (20 marks):</strong> This is an important learning outcome of this exercise. You will be assessed on your ability to provide a comprehensive documentation of the analysis procedures in the form of code chunks of Markdown. It is important to note that it is not enough by merely providing the code chunk without any explanation on the purpose and R function(s) used.</p></li>
+<li><p><strong>Bonus (10 marks):</strong> Demonstrate your ability to employ methods beyond what you had learned in class to gain insights from the data. The methods used must be geospatial in nature.</p></li>
+</ul>
+</section>
+<section id="submission-instructions" class="level2">
+<h2 class="anchored" data-anchor-id="submission-instructions">Submission Instructions</h2>
+<ul>
+<li>The write-up of the take-home exercise must be in <strong>Quarto html document</strong> format. You are required to publish the write-up on <a href="https://www.netlify.com/"><strong>Netlify</strong></a>.</li>
+<li>The R project of the take-home exercise must be pushed onto your <a href="https://github.com/">Github</a> repository.</li>
+<li>You are required to provide the links to Netlify service of the take-home exercise write-up and github repository on eLearn.</li>
+</ul>
+</section>
+<section id="due-date" class="level2">
+<h2 class="anchored" data-anchor-id="due-date">Due Date</h2>
+<p>11th December 2022 (Sunday), 11.59pm (midnight).</p>
+</section>
+<section id="peer-learning" class="level2">
+<h2 class="anchored" data-anchor-id="peer-learning">Peer Learning</h2>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

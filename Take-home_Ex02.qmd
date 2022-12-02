@@ -2,3 +2,74 @@
 title: "Take-home Exercise 2"
 editor: visual
 ---
+
+## Setting the Scene
+
+The process of creating regions is called [regionalisation](https://www.researchgate.net/publication/28153673_Supervised_Regionalization_Methods_A_Survey/link/0fcfd5094046b13d35000000/download). A regionalisation is a special kind of clustering where the objective is to group observations which are similar in their statistical attributes, but also in their spatial location. In this sense, regionalization embeds the same logic as standard clustering techniques, but also applies a series of geographical constraints. Often, these constraints relate to connectivity: two candidates can only be grouped together in the same region if there exists a path from one member to another member that never leaves the region. These paths often model the spatial relationships in the data, such as contiguity or proximity. However, connectivity does not always need to hold for all regions, and in certain contexts it makes sense to relax connectivity or to impose different types of geographic constraints.
+
+
+## Objectives
+
+In this take-home exercise you are required to regionalise Nigeria by using, but not limited to the following measures:
+
+-   Total number of functional water points
+-   Total number of nonfunctional water points
+-   Percentage of functional water points
+-   Percentage of non-functional water points
+-   Percentage of main water point technology (i.e. Hand Pump)
+-   Percentage of usage capacity (i.e. < 1000, >=1000)
+-   Percentage of rural water points
+
+## The Data
+
+### Apstial data
+
+For the purpose of this assignment, data from [WPdx Global Data Repositories](https://www.waterpointdata.org/access-data/) will be used. There are two versions of the data. They are: WPdx-Basic and WPdx+. You are required to use WPdx+ data set.
+
+### Geospatial data
+
+Nigeria Level-2 Administrative Boundary (also known as Local Government Area) polygon features GIS data will be used in this take-home exercise. The data can be downloaded either from The [Humanitarian Data Exchange](https://data.humdata.org/) portal or [geoBoundaries](https://www.geoboundaries.org/index.html).
+
+## The Task
+
+The specific tasks of this take-home exercise are as follows:
+
+-   Using appropriate sf method, import the shapefile into R and save it in a simple feature data frame format. Note that there are three Projected Coordinate Systems of Nigeria, they are: EPSG: 26391, 26392, and 26303. You can use any one of them.
+-   Using appropriate tidyr and dplyr methods, derive the proportion of functional and non-functional water point at LGA level (i.e. ADM2).
+-   Combining the geospatial and aspatial data frame into simple feature data frame.
+-   Delineating water point measures functional regions by using conventional hierarchical clustering.
+-   Delineating water point measures functional regions by using spatially constrained clustering algorithms.
+
+### Thematic Mapping
+
+-   Plot to show the water points measures derived by using appropriate statistical graphics and choropleth mapping technique.
+
+### Analytical Mapping
+
+-   Plot functional regions delineated by using both non-spatially constrained and spatially constrained clustering algorithms.
+
+## Grading Criteria
+
+This exercise will be graded by using the following criteria:
+
+-   **Geospatial Data Wrangling (20 marks):** This is an important aspect of geospatial analytics. You will be assessed on your ability to employ appropriate R functions from various R packages specifically designed for modern data science such as readr, tidyverse (tidyr, dplyr, ggplot2), sf just to mention a few of them, to perform the entire geospatial data wrangling processes, including. This is not limited to data import, data extraction, data cleaning and data transformation. Besides assessing your ability to use the R functions, this criterion also includes your ability to clean and derive appropriate variables to meet the analysis need. (Warning: All data are like vast grassland full of land mines. Your job is to clear those mines and not to step on them).
+
+-   **Geospatial Analysis (25 marks):** In this exercise, you are expected to use the appropriate clustering methods and R packages functions introduced in class to regionalise the study area. You will be assessed on your ability to apply the methods learned correctly and efficiently.
+
+-   **Geovisualisation and Geocommunication (25 marks):** In this section, you will be assessed on your ability to communicate the complex spatial statistics results in business friendly visual representations. This course is geospatial centric, hence, it is important for you to demonstrate your competency in using appropriate geovisualisation techniques to reveal and communicate the findings of your analysis.
+
+-   **Reproducibility (20 marks):** This is an important learning outcome of this exercise. You will be assessed on your ability to provide a comprehensive documentation of the analysis procedures in the form of code chunks of Markdown. It is important to note that it is not enough by merely providing the code chunk without any explanation on the purpose and R function(s) used.
+
+-   **Bonus (10 marks):** Demonstrate your ability to employ methods beyond what you had learned in class to gain insights from the data. The methods used must be geospatial in nature.
+
+## Submission Instructions
+
+-   The write-up of the take-home exercise must be in **Quarto html document** format. You are required to publish the write-up on [**Netlify**](https://www.netlify.com/).
+-   The R project of the take-home exercise must be pushed onto your [Github](https://github.com/) repository.
+-   You are required to provide the links to Netlify service of the take-home exercise write-up and github repository on eLearn.
+
+## Due Date
+
+11th December 2022 (Sunday), 11.59pm (midnight).
+
+## Peer Learning

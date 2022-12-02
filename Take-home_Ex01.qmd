@@ -67,10 +67,110 @@ This exercise will be graded by using the following criteria:
 
 30th November 2022 (Wednesday), 11.59pm (midnight).
 
-## Reference
-
-## Learning from senior
-
-## Q & A
-
 ## Peer Learning
+
+-   [ANICA CLARICE ANTONELLA PASCUAL GALANO](https://acapgeolano.netlify.app/take-home_ex/take-home_ex1/take-home_ex1)
+
+-   [CAO FEI](https://feicao.netlify.app/take-home_ex1/take-home_ex1)
+
+-   [CHE XUAN](https://r4dsa4ga.netlify.app/take-home_ex/take-home_ex1)
+
+-   [CHEN FANGXIAN](https://isss624chenfx.netlify.app/take-home_ex/take-home_ex1/take-home_ex1)
+
+-   [CHEN HAOYE ROGER](https://isss624rogerchen.netlify.app/take-home_ex/take-home_ex1)
+
+-   [CHONG JIA HUI KATHYRN KELLYNE](https://isss624kathyrnc.netlify.app/take-home_ex1/take-home_ex1)
+
+-   [CHONG KOK WEI ALLAN CHONG](https://mitb-isss624-ackw-gis-analytics.netlify.app/take-home_ex1/take-home_ex1#hot-spot-and-cold-spot-area-analysis)
+
+-   [CHUA YAN TING](https://isss624-amelia.netlify.app/exercises/take-home_ex1/take-home_ex1)
+
+-   [HAN SHUMIN](https://master--hanshuminisss624.netlify.app/take-home_ex/take-home_ex1/take-home_ex1)
+
+-   [HULWANA BINTE SAIFULZAMAN]()
+
+-   [KWA KAH BOON](https://kaleidoscopic-bunny-isss624.netlify.app/take-home_ex/take-home_ex1) [LAI WEI SONG](https://isss624-leprekonsg.netlify.app/in-class_ex/in-class_ex2/in-class_ex2)
+
+-   [LAM YU HAY GLADWIN]()
+
+-   [LE THANH THAO](https://gsaiss624.netlify.app/take-home_ex1/take-home_ex1)
+
+-   [LE TRAN THUY DUNG](https://isss624-1stcommit.netlify.app/take-home_ex/take-home_ex1/take-home_ex1)
+
+-   [LEE CHEE TIAN](https://leecheetian-isss624.netlify.app/take-home_ex/take-home_ex1/take-home_ex1)
+
+-   [LEY MINGHUI JONATHAN]()
+
+-   [LIM JUN LING](https://geospatialsunshine.netlify.app/take-home_ex/take-home_ex1/take-home_ex1)
+
+-   [LIN SHUYAN](https://lins-92-isss624.netlify.app/take-home_ex01/take-home_ex01)
+
+-   [LOH SI YING](https://lohsiying.netlify.app/take_home_ex/ex1/take-home-ex1.html)
+
+-   [LOW POH SING JEFFREY](https://isss624jeffreylowps.netlify.app/take-home_ex/take-home_ex1/take-home_ex1)
+
+-   [LYNN KWONG](https://isss624-lynn.netlify.app/takehomeex1/takehomeex1)
+
+-   [ONG ZHI RONG JORDAN](https://jordan-isss624-geospatial.netlify.app/posts/geo/geospatial_exercise/)
+
+-   [QUAH ZONG YOU](https://isss624-zy.netlify.app/take-home_ex1/take-home_ex1)
+
+-   [RAVEENA CHAKRAPANI](https://raveenageospatial.netlify.app/takehomeex/ex1)
+
+-   RIDHICA RANGARAJAN
+
+-   [RIDHIMA BANSAL](https://isss624-ridh27.netlify.app/take_home_ex/take_home_ex1/take_home_ex1)
+
+-   [SEAH JIAN YUAN NICHOLAS](https://isss624-sjynic.netlify.app/take_home_ex1/take_home_ex1)
+
+-   [SEAH XING XIAN](https://sxingxian-geo.netlify.app/takehome_ex/th_ex1/)
+
+-   [SHAO GUANBO](https://isss624gbshao.netlify.app/take-home_ex1/take-home_ex1)
+
+-   [SHI CHEE LIANG](https://isss624scl.netlify.app/takehomeex/takehomeex01/takehomeex01)
+
+-   [SHINDE YOGENDRA SUNIL](https://sage-crostata-158577.netlify.app/inclass_ex02/africa_water/take_home_ex1)
+
+-   [SHUBHANSHI RADHEY SHYAM JANGID](https://isss624shubhanshi.netlify.app/take-home/take-home_ex1/take-home_ex1)
+
+-   [SOE HTET](https://geospatial-analytics.netlify.app/take%20home%20exercise/take%20home%20exercise%201/take_home_ex01test)
+
+-   [SUN YIPING](https://isss624-mitbsunyp.netlify.app/take-home_ex1/take-home_ex1)
+
+-   [TAN GUOHAO](https://tanguohao.netlify.app/take-home_ex/take-home_ex1)
+
+-   [TAN YI YING](https://funny-hummingbird-yytan217.netlify.app/take-home%20exercises/take-home_ex1/take-home_ex1)
+
+-   [TAN ZEXEONG](https://isss624jephostan.netlify.app/class_project/project_1/project_1.html)
+
+-   [TAO MEIZHU](https://isss624-geospatial-analytics.netlify.app/take-home%20exercise/take-home_ex1/take-home_ex1)
+
+-   [WANG QI](https://isss624wangqi.netlify.app/take-home_ex1/take-home_ex1)
+
+-   [WANG YIZHI](https://isss624yizhi.netlify.app/take-home_ex/take-home_ex1/take-home_ex1)
+
+-   [WONG SHU MING BELINDA](https://isss624bw.netlify.app/takehome/takehomeex1/takehomeex1)
+
+-   [XU SIYI](https://isss624-xusiyi.netlify.app/take-home%20exercise/take-home%20ex1)
+
+-   [YAN LICHENG](https://f4sared.netlify.app/take_home_ex/ex_1/ex_1.html)
+
+-   [YANG JINGYUAN](https://isss624yjy.netlify.app/take-home_ex1/take-home_ex1)
+
+-   [YANG MINGQI](https://isss624mq.netlify.app/take-home_ex/take-home_ex1/take-home_ex1)
+
+-   [YANG TIANYI](https://isss624-yty.netlify.app/take-home_ex1/take-home_ex1)
+
+-   [ZENG HANG](https://isss624zh.netlify.app/take-home_ex/take-home%20ex1/take-home_ex1)
+
+-   [ZHANG YI](https://isss624zoe.netlify.app/take_home_ex1/take_home_ex1)
+
+-   [ZHAO YUETONG](https://isss624zhaoyuetong.netlify.app/take-home_ex/take-home_ex1/take-home_exercise1)
+
+-   [ZHENG KEDAN](https://isss624-zkd.netlify.app/take-home_ex/take-home_ex1/take-home_ex1)
+
+-   [ZHENG YIMIN](https://vermillion-lamington-9e3f61.netlify.app/take-home_ex/take-home_ex1/take-home_ex1)
+
+-   [ZHU FANGYUAN](https://isss624agaa.netlify.app/take_home_ex1/take_home_ex1)
+
+-   [ZHU YITING](https://yiting-is-taking-geospatial.netlify.app/take-home_ex/take-home_ex1/take-home_ex1)

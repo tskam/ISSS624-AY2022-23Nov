@@ -34,6 +34,10 @@ These spatial statistics are well suited for:
 
 -   [Global and Local Measures of Spatial Autocorrelation](https://r4gdsa.netlify.app/chap04.html)
 
+## In-class Exercise Notes
+
+-   [Birds of a feather flock together: Do functionally similar water points positively co-occur in Nigeria?](https://isss624.netlify.app/in-class_ex/in-class_ex2/in-class_ex2)
+
 ## Self-reading Before Meet-up
 
 To read before class:

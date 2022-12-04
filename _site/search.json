@@ -77,6 +77,13 @@
     "text": "Hands-on Exercise\n\nGlobal and Local Measures of Spatial Autocorrelation"
   },
   {
+    "objectID": "outline/Lesson2_outline.html#in-class-exercise-notes",
+    "href": "outline/Lesson2_outline.html#in-class-exercise-notes",
+    "title": "Lesson 2: Global and Local Measures of Spatial Autocorrelation",
+    "section": "In-class Exercise Notes",
+    "text": "In-class Exercise Notes\n\nBirds of a feather flock together: Do functionally similar water points positively co-occur in Nigeria?"
+  },
+  {
     "objectID": "outline/Lesson2_outline.html#self-reading-before-meet-up",
     "href": "outline/Lesson2_outline.html#self-reading-before-meet-up",
     "title": "Lesson 2: Global and Local Measures of Spatial Autocorrelation",
@@ -102,7 +109,14 @@
     "href": "outline/Lesson3_outline.html#hands-on-exercise",
     "title": "Lesson 3: Geographic Segmentation with Spatially Constrained Cluster Analysis",
     "section": "Hands-on Exercise",
-    "text": "Hands-on Exercise\n\n5 Geographical Segmentation with Spatially Constrained Clustering Techniques\n\n\nSelf-reading Before Meet-up\nTo read before class:\n\nAssuncao, R. M., Neves, M.C., Camara, G. and Costa Freitas, C.D. 2006. “Efficient Regionalization Techniques for Socio-Economic Geographical Units Using Minimum Spanning Trees”. International Journal of Geographical Information Science 20: 797-811. (Available in SMU digital library)\nChavent, M., Kuentz-Simonet, V., Labenne,A. and Saracco, J. 2018. “ClustGeo: an R package for hierarchical clustering with spatial constraints” Computational Statistics, 33: 1799-1822. (Available in SMU digital library)\n\n\n\nReferences\n\nRovan, J. and Sambt, J. (2003) “Socio-economic Differences Among Slovenian Municipalities: A Cluster Analysis Approach”, Developments in Applied Statistics, pp. 265-278.\n\nDemeter, T. and Bratucu, G. (2013) “Statistical Analysis Of The EU Countries from A Touristic Point of View”, Bulletin of the Transilvania University of Braşov, 6(55): 121-130.\nBrown, N.S. & Watson, P. (2012) “What can a comprehensive plan really tell us about a region?: A cluster analysis of county comprehensive plans in Idaho”, Western Economics Forum. Pp.22-37.\nJaya, I.G.M., Ruchjana, B.N., Andriyana, Y. & Agata, R (2019) “Clustering with spatial constraints: The case of diarrhea in Bandung city, Indonesia”\nde Souza, D. C. & Taconeli, C. A. (2022) “Spatial and non-spatial clustering algorithm in the analysis of Brazilian educational data”, Communications in Statistics: Case Studies, Data Analysis, and Applications. Vol. 8, No. 4, 588-606. (Available in SMU digital library)\n\n\n\nAll About R\n\nHierarchical Cluster Analysis.\nskater: A function from spdep package that implements a SKATER procedure for spatial clustering analysis.\nClustGeo: Hierarchical Clustering with Spatial Constraints\n\nIntroduction to Clustgeo"
+    "text": "Hands-on Exercise\n\n5 Geographical Segmentation with Spatially Constrained Clustering Techniques"
+  },
+  {
+    "objectID": "outline/Lesson3_outline.html#in-class-exercise-notes",
+    "href": "outline/Lesson3_outline.html#in-class-exercise-notes",
+    "title": "Lesson 3: Geographic Segmentation with Spatially Constrained Cluster Analysis",
+    "section": "In-class Exercise Notes",
+    "text": "In-class Exercise Notes\n\nRegionalisation with Spatially Constrained Cluster Analysis\n\n\nSelf-reading Before Meet-up\nTo read before class:\n\nAssuncao, R. M., Neves, M.C., Camara, G. and Costa Freitas, C.D. 2006. “Efficient Regionalization Techniques for Socio-Economic Geographical Units Using Minimum Spanning Trees”. International Journal of Geographical Information Science 20: 797-811. (Available in SMU digital library)\nChavent, M., Kuentz-Simonet, V., Labenne,A. and Saracco, J. 2018. “ClustGeo: an R package for hierarchical clustering with spatial constraints” Computational Statistics, 33: 1799-1822. (Available in SMU digital library)\n\n\n\nReferences\n\nRovan, J. and Sambt, J. (2003) “Socio-economic Differences Among Slovenian Municipalities: A Cluster Analysis Approach”, Developments in Applied Statistics, pp. 265-278.\n\nDemeter, T. and Bratucu, G. (2013) “Statistical Analysis Of The EU Countries from A Touristic Point of View”, Bulletin of the Transilvania University of Braşov, 6(55): 121-130.\nBrown, N.S. & Watson, P. (2012) “What can a comprehensive plan really tell us about a region?: A cluster analysis of county comprehensive plans in Idaho”, Western Economics Forum. Pp.22-37.\nJaya, I.G.M., Ruchjana, B.N., Andriyana, Y. & Agata, R (2019) “Clustering with spatial constraints: The case of diarrhea in Bandung city, Indonesia”\nde Souza, D. C. & Taconeli, C. A. (2022) “Spatial and non-spatial clustering algorithm in the analysis of Brazilian educational data”, Communications in Statistics: Case Studies, Data Analysis, and Applications. Vol. 8, No. 4, 588-606. (Available in SMU digital library)\n\n\n\nAll About R\n\nHierarchical Cluster Analysis.\nskater: A function from spdep package that implements a SKATER procedure for spatial clustering analysis.\nClustGeo: Hierarchical Clustering with Spatial Constraints\n\nIntroduction to Clustgeo"
   },
   {
     "objectID": "outline/Lesson4_outline.html",
@@ -266,86 +280,65 @@
     "text": "Due Date\n30th November 2022 (Wednesday), 11.59pm (midnight)."
   },
   {
-    "objectID": "Take-home_Ex01.html#reference",
-    "href": "Take-home_Ex01.html#reference",
-    "title": "Take-home Exercise 1: Geospatial Analytics for Social Good",
-    "section": "Reference",
-    "text": "Reference"
-  },
-  {
-    "objectID": "Take-home_Ex01.html#learning-from-senior",
-    "href": "Take-home_Ex01.html#learning-from-senior",
-    "title": "Take-home Exercise 1: Geospatial Analytics for Social Good",
-    "section": "Learning from senior",
-    "text": "Learning from senior"
-  },
-  {
-    "objectID": "Take-home_Ex01.html#q-a",
-    "href": "Take-home_Ex01.html#q-a",
-    "title": "Take-home Exercise 1: Geospatial Analytics for Social Good",
-    "section": "Q & A",
-    "text": "Q & A"
-  },
-  {
     "objectID": "Take-home_Ex01.html#peer-learning",
     "href": "Take-home_Ex01.html#peer-learning",
     "title": "Take-home Exercise 1: Geospatial Analytics for Social Good",
     "section": "Peer Learning",
-    "text": "Peer Learning\n\nANICA CLARICE ANTONELLA PASCUAL GALANO\nCAO FEI\nCHE XUAN\nCHEN FANGXIAN\nCHEN HAOYE ROGER\nCHONG JIA HUI KATHYRN KELLYNE\nCHONG KOK WEI ALLAN CHONG\nCHUA YAN TING\nHAN SHUMIN\nHULWANA BINTE SAIFULZAMAN\nKWA KAH BOON LAI WEI SONG\nLAM YU HAY GLADWIN\nLE THANH THAO\nLE TRAN THUY DUNG\nLEE CHEE TIAN\nLEY MINGHUI JONATHAN\nLIM JUN LING\nLIN SHUYAN\nLOH SI YING\nLOW POH SING JEFFREY\nLYNN KWONG\nONG ZHI RONG JORDAN\nQUAH ZONG YOU\nRAVEENA CHAKRAPANI\nRIDHICA RANGARAJAN\nRIDHIMA BANSAL\nSEAH JIAN YUAN NICHOLAS\nSEAH XING XIAN\nSHAO GUANBO\nSHI CHEE LIANG\nSHINDE YOGENDRA SUNIL\nSHUBHANSHI RADHEY SHYAM JANGID\nSOE HTET\nSUN YIPING\nTAN GUOHAO\nTAN YI YING\nTAN ZEXEONG\nTAO MEIZHU\nWANG QI\nWANG YIZHI\nWONG SHU MING BELINDA\nXU SIYI\nYAN LICHENG\nYANG JINGYUAN\nYANG MINGQI\nYANG TIANYI\nZENG HANG\nZHANG YI\nZHAO YUETONG\nZHENG KEDAN\nZHENG YIMIN\nZHU FANGYUAN\nZHU YITING"
+    "text": "Peer Learning\n\nANICA CLARICE ANTONELLA PASCUAL GALANO\nCAO FEI\nCHE XUAN\nCHEN FANGXIAN\nCHEN HAOYE ROGER\nCHONG JIA HUI KATHYRN KELLYNE\nCHONG KOK WEI ALLAN CHONG\nCHUA YAN TING\nHAN SHUMIN\nHULWANA BINTE SAIFULZAMAN\nKWA KAH BOON LAI WEI SONG\nLAI WEI SONG\nLAM YU HAY GLADWIN\nLE THANH THAO\nLE TRAN THUY DUNG\nLEE CHEE TIAN\nLEY MINGHUI JONATHAN\nLIM JUN LING\nLIN SHUYAN\nLOH SI YING\nLOW POH SING JEFFREY\nLYNN KWONG\nONG ZHI RONG JORDAN\nQUAH ZONG YOU\nRAVEENA CHAKRAPANI\nRIDHICA RANGARAJAN\nRIDHIMA BANSAL\nSEAH JIAN YUAN NICHOLAS\nSEAH XING XIAN\nSHAO GUANBO\nSHI CHEE LIANG\nSHINDE YOGENDRA SUNIL\nSHUBHANSHI RADHEY SHYAM JANGID\nSOE HTET\nSUN YIPING\nTAN GUOHAO\nTAN YI YING\nTAN ZEXEONG\nTAO MEIZHU\nWANG QI\nWANG YIZHI\nWONG SHU MING BELINDA\nXU SIYI\nYAN LICHENG\nYANG JINGYUAN\nYANG MINGQI\nYANG TIANYI\nZENG HANG\nZHANG YI\nZHAO YUETONG\nZHENG KEDAN\nZHENG YIMIN\nZHU FANGYUAN\nZHU YITING"
   },
   {
     "objectID": "Take-home_Ex02.html",
     "href": "Take-home_Ex02.html",
-    "title": "Take-home Exercise 2",
+    "title": "Take-home Exercise 2: Regionalisation of Multivariate Water Point Attributes with Non-spatially Constrained and Spatially Constrained Clustering Methods",
     "section": "",
     "text": "The process of creating regions is called regionalisation. A regionalisation is a special kind of clustering where the objective is to group observations which are similar in their statistical attributes, but also in their spatial location. In this sense, regionalization embeds the same logic as standard clustering techniques, but also applies a series of geographical constraints. Often, these constraints relate to connectivity: two candidates can only be grouped together in the same region if there exists a path from one member to another member that never leaves the region. These paths often model the spatial relationships in the data, such as contiguity or proximity. However, connectivity does not always need to hold for all regions, and in certain contexts it makes sense to relax connectivity or to impose different types of geographic constraints."
   },
   {
     "objectID": "Take-home_Ex02.html#objectives",
     "href": "Take-home_Ex02.html#objectives",
-    "title": "Take-home Exercise 2",
+    "title": "Take-home Exercise 2: Regionalisation of Multivariate Water Point Attributes with Non-spatially Constrained and Spatially Constrained Clustering Methods",
     "section": "Objectives",
     "text": "Objectives\nIn this take-home exercise you are required to regionalise Nigeria by using, but not limited to the following measures:\n\nTotal number of functional water points\nTotal number of nonfunctional water points\nPercentage of functional water points\nPercentage of non-functional water points\nPercentage of main water point technology (i.e. Hand Pump)\nPercentage of usage capacity (i.e. < 1000, >=1000)\nPercentage of rural water points"
   },
   {
     "objectID": "Take-home_Ex02.html#the-data",
     "href": "Take-home_Ex02.html#the-data",
-    "title": "Take-home Exercise 2",
+    "title": "Take-home Exercise 2: Regionalisation of Multivariate Water Point Attributes with Non-spatially Constrained and Spatially Constrained Clustering Methods",
     "section": "The Data",
     "text": "The Data\n\nApstial data\nFor the purpose of this assignment, data from WPdx Global Data Repositories will be used. There are two versions of the data. They are: WPdx-Basic and WPdx+. You are required to use WPdx+ data set.\n\n\nGeospatial data\nNigeria Level-2 Administrative Boundary (also known as Local Government Area) polygon features GIS data will be used in this take-home exercise. The data can be downloaded either from The Humanitarian Data Exchange portal or geoBoundaries."
   },
   {
     "objectID": "Take-home_Ex02.html#the-task",
     "href": "Take-home_Ex02.html#the-task",
-    "title": "Take-home Exercise 2",
+    "title": "Take-home Exercise 2: Regionalisation of Multivariate Water Point Attributes with Non-spatially Constrained and Spatially Constrained Clustering Methods",
     "section": "The Task",
     "text": "The Task\nThe specific tasks of this take-home exercise are as follows:\n\nUsing appropriate sf method, import the shapefile into R and save it in a simple feature data frame format. Note that there are three Projected Coordinate Systems of Nigeria, they are: EPSG: 26391, 26392, and 26303. You can use any one of them.\nUsing appropriate tidyr and dplyr methods, derive the proportion of functional and non-functional water point at LGA level (i.e. ADM2).\nCombining the geospatial and aspatial data frame into simple feature data frame.\nDelineating water point measures functional regions by using conventional hierarchical clustering.\nDelineating water point measures functional regions by using spatially constrained clustering algorithms.\n\n\nThematic Mapping\n\nPlot to show the water points measures derived by using appropriate statistical graphics and choropleth mapping technique.\n\n\n\nAnalytical Mapping\n\nPlot functional regions delineated by using both non-spatially constrained and spatially constrained clustering algorithms."
   },
   {
     "objectID": "Take-home_Ex02.html#grading-criteria",
     "href": "Take-home_Ex02.html#grading-criteria",
-    "title": "Take-home Exercise 2",
+    "title": "Take-home Exercise 2: Regionalisation of Multivariate Water Point Attributes with Non-spatially Constrained and Spatially Constrained Clustering Methods",
     "section": "Grading Criteria",
     "text": "Grading Criteria\nThis exercise will be graded by using the following criteria:\n\nGeospatial Data Wrangling (20 marks): This is an important aspect of geospatial analytics. You will be assessed on your ability to employ appropriate R functions from various R packages specifically designed for modern data science such as readr, tidyverse (tidyr, dplyr, ggplot2), sf just to mention a few of them, to perform the entire geospatial data wrangling processes, including. This is not limited to data import, data extraction, data cleaning and data transformation. Besides assessing your ability to use the R functions, this criterion also includes your ability to clean and derive appropriate variables to meet the analysis need. (Warning: All data are like vast grassland full of land mines. Your job is to clear those mines and not to step on them).\nGeospatial Analysis (25 marks): In this exercise, you are expected to use the appropriate clustering methods and R packages functions introduced in class to regionalise the study area. You will be assessed on your ability to apply the methods learned correctly and efficiently.\nGeovisualisation and Geocommunication (25 marks): In this section, you will be assessed on your ability to communicate the complex spatial statistics results in business friendly visual representations. This course is geospatial centric, hence, it is important for you to demonstrate your competency in using appropriate geovisualisation techniques to reveal and communicate the findings of your analysis.\nReproducibility (20 marks): This is an important learning outcome of this exercise. You will be assessed on your ability to provide a comprehensive documentation of the analysis procedures in the form of code chunks of Markdown. It is important to note that it is not enough by merely providing the code chunk without any explanation on the purpose and R function(s) used.\nBonus (10 marks): Demonstrate your ability to employ methods beyond what you had learned in class to gain insights from the data. The methods used must be geospatial in nature."
   },
   {
     "objectID": "Take-home_Ex02.html#submission-instructions",
     "href": "Take-home_Ex02.html#submission-instructions",
-    "title": "Take-home Exercise 2",
+    "title": "Take-home Exercise 2: Regionalisation of Multivariate Water Point Attributes with Non-spatially Constrained and Spatially Constrained Clustering Methods",
     "section": "Submission Instructions",
     "text": "Submission Instructions\n\nThe write-up of the take-home exercise must be in Quarto html document format. You are required to publish the write-up on Netlify.\nThe R project of the take-home exercise must be pushed onto your Github repository.\nYou are required to provide the links to Netlify service of the take-home exercise write-up and github repository on eLearn."
   },
   {
     "objectID": "Take-home_Ex02.html#due-date",
     "href": "Take-home_Ex02.html#due-date",
-    "title": "Take-home Exercise 2",
+    "title": "Take-home Exercise 2: Regionalisation of Multivariate Water Point Attributes with Non-spatially Constrained and Spatially Constrained Clustering Methods",
     "section": "Due Date",
     "text": "Due Date\n11th December 2022 (Sunday), 11.59pm (midnight)."
   },
   {
     "objectID": "Take-home_Ex02.html#peer-learning",
     "href": "Take-home_Ex02.html#peer-learning",
-    "title": "Take-home Exercise 2",
+    "title": "Take-home Exercise 2: Regionalisation of Multivariate Water Point Attributes with Non-spatially Constrained and Spatially Constrained Clustering Methods",
     "section": "Peer Learning",
     "text": "Peer Learning"
   }

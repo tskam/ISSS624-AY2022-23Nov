@@ -1,12 +1,11 @@
 ---
-title: "Take-home Exercise 2"
+title: "Take-home Exercise 2: Regionalisation of Multivariate Water Point Attributes with Non-spatially Constrained and Spatially Constrained Clustering Methods"
 editor: visual
 ---
 
 ## Setting the Scene
 
 The process of creating regions is called [regionalisation](https://www.researchgate.net/publication/28153673_Supervised_Regionalization_Methods_A_Survey/link/0fcfd5094046b13d35000000/download). A regionalisation is a special kind of clustering where the objective is to group observations which are similar in their statistical attributes, but also in their spatial location. In this sense, regionalization embeds the same logic as standard clustering techniques, but also applies a series of geographical constraints. Often, these constraints relate to connectivity: two candidates can only be grouped together in the same region if there exists a path from one member to another member that never leaves the region. These paths often model the spatial relationships in the data, such as contiguity or proximity. However, connectivity does not always need to hold for all regions, and in certain contexts it makes sense to relax connectivity or to impose different types of geographic constraints.
-
 
 ## Objectives
 
@@ -17,7 +16,7 @@ In this take-home exercise you are required to regionalise Nigeria by using, but
 -   Percentage of functional water points
 -   Percentage of non-functional water points
 -   Percentage of main water point technology (i.e. Hand Pump)
--   Percentage of usage capacity (i.e. < 1000, >=1000)
+-   Percentage of usage capacity (i.e. \< 1000, \>=1000)
 -   Percentage of rural water points
 
 ## The Data

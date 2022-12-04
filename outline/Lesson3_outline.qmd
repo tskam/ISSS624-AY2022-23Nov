@@ -18,6 +18,10 @@ format: html
 
 -   [5 Geographical Segmentation with Spatially Constrained Clustering Techniques](https://r4gdsa.netlify.app/chap05.html)
 
+## In-class Exercise Notes
+
+-   [Regionalisation with Spatially Constrained Cluster Analysis](https://isss624.netlify.app/in-class_ex/in-class_ex3/in-class_ex3)
+
 ### Self-reading Before Meet-up
 
 To read before class:

@@ -20,18 +20,16 @@ In this lesson, you will learn the basic concepts and methods of geographically 
     -   Bandwidth
     -   Interpreting and Visualising
 
-## Lesson Slides and Hands-on Notes
+## Hands-on Exercise
 
--   Lesson slides in [html](../lesson/lesson09/lesson09-gwr.html) and [pdf](../lesson/lesson09/lesson09-gwr.pdf) formats
-
--   Handout of Hands-on Exercise 9 in [html](../Hands-on_Ex/Hands-on_Ex09/Hands-on_Ex09-gwr.html) and [pdf](../Hands-on_Ex/Hands-on_Ex09/Hands-on_Ex09-gwr.pdf) formats.
+-   [6  Calibrating Hedonic Pricing Model for Private Highrise Property with GWR Method](https://r4gdsa.netlify.app/chap06.html)
 
 ## Self-reading Before Meet-up
 
 To read before class:
 
--   Brunsdon, C., Fotheringham, A.S., and Charlton, M. (2002) "Geographically weighted regression: A method for exploring spatial nonstationarity". Geographical Analysis, 28: 281-289.
--   Brunsdon, C., Fotheringham, A.S. and Charlton, M., (1999) "Some Notes on Parametric Significance Tests for Geographically Weighted Regression". Journal of Regional Science, 39(3), 497-524.
+-   Brunsdon, C., Fotheringham, A.S., and Charlton, M. (2002) ["Geographically weighted regression: A method for exploring spatial nonstationarity"](https://onlinelibrary.wiley.com/doi/10.1111/j.1538-4632.1996.tb00936.x). *Geographical Analysis*, 28: 281-289.
+-   Brunsdon, C., Fotheringham, A.S. and Charlton, M., (1999) ["Some Notes on Parametric Significance Tests for Geographically Weighted Regression"](https://onlinelibrary.wiley.com/doi/abs/10.1111/0022-4146.00146). *Journal of Regional Science*, 39(3), 497-524.
 
 ## References
 

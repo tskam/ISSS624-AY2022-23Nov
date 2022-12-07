@@ -341,5 +341,12 @@
     "title": "Take-home Exercise 2: Regionalisation of Multivariate Water Point Attributes with Non-spatially Constrained and Spatially Constrained Clustering Methods",
     "section": "Peer Learning",
     "text": "Peer Learning"
+  },
+  {
+    "objectID": "outline/Lesson4_outline.html#hands-on-exercise",
+    "href": "outline/Lesson4_outline.html#hands-on-exercise",
+    "title": "Lesson 4: Geograpgically Weighted Regression",
+    "section": "Hands-on Exercise",
+    "text": "Hands-on Exercise\n\n6 Calibrating Hedonic Pricing Model for Private Highrise Property with GWR Method"
   }
 ]

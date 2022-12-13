@@ -89,11 +89,11 @@ This exercise will be graded by using the following criteria:
 
 -   [HULWANA BINTE SAIFULZAMAN](https://hulwana-geospatial.netlify.app/take-home_ex/take-home_ex1/take-home_ex1_revised#mapping-gi-values-with-adaptive-distance-weights)
 
--   [KWA KAH BOON](https://kaleidoscopic-bunny-isss624.netlify.app/take-home_ex/take-home_ex1) [LAI WEI SONG](https://isss624-leprekonsg.netlify.app/in-class_ex/in-class_ex2/in-class_ex2)
+-   [KWA KAH BOON](https://kaleidoscopic-bunny-isss624.netlify.app/take-home_ex/take-home_ex1) 
 
 -   [LAI WEI SONG](https://isss624-leprekonsg.netlify.app/in-class_ex/in-class_ex2/in-class_ex2)
 
--   [LAM YU HAY GLADWIN]()
+-   [LAM YU HAY GLADWIN](https://gladwin-geospatial-analysis.netlify.app/takehome/takehome1/takehome1)
 
 -   [LE THANH THAO](https://gsaiss624.netlify.app/take-home_ex1/take-home_ex1)
 

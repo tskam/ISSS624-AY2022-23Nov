@@ -143,7 +143,7 @@ This exercise will be graded by using the following criteria:
 
 -   [TAN YI YING](https://funny-hummingbird-yytan217.netlify.app/take-home%20exercises/take-home_ex1/take-home_ex1)
 
--   [TAN ZEXEONG](https://isss624jephostan.netlify.app/class_project/project_1/project_1.html)
+-   [TAN ZEXEONG](https://geospatial-analysis-jeph0stan.netlify.app/class_project/project_1/spatial_weights.html)
 
 -   [TAO MEIZHU](https://isss624-geospatial-analytics.netlify.app/take-home%20exercise/take-home_ex1/take-home_ex1)
 

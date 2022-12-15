@@ -89,7 +89,7 @@ This exercise will be graded by using the following criteria:
 
 -   [HULWANA BINTE SAIFULZAMAN](https://hulwana-geospatial.netlify.app/take-home_ex/take-home_ex1/take-home_ex1_revised#mapping-gi-values-with-adaptive-distance-weights)
 
--   [KWA KAH BOON](https://kaleidoscopic-bunny-isss624.netlify.app/take-home_ex/take-home_ex1) 
+-   [KWA KAH BOON](https://kaleidoscopic-bunny-isss624.netlify.app/take-home_ex/take-home_ex1)
 
 -   [LAI WEI SONG](https://isss624-leprekonsg.netlify.app/in-class_ex/in-class_ex2/in-class_ex2)
 
@@ -119,7 +119,7 @@ This exercise will be graded by using the following criteria:
 
 -   [RAVEENA CHAKRAPANI](https://raveenageospatial.netlify.app/takehomeex/ex1)
 
--   [RIDHICA RANGARAJAN]()
+-   [RIDHICA RANGARAJAN](https://isss624-ridhicar.netlify.app/take-home_ex/take-home_ex1/take-home_ex1)
 
 -   [RIDHIMA BANSAL](https://isss624-ridh27.netlify.app/take_home_ex/take_home_ex1/take_home_ex1)
 

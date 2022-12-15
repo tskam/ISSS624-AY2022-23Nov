@@ -175,4 +175,4 @@ This exercise will be graded by using the following criteria:
 
 -   [ZHU FANGYUAN](https://isss624agaa.netlify.app/take_home_ex1/take_home_ex1)
 
--   [ZHU YITING](https://yiting-is-taking-geospatial.netlify.app/take-home_ex/take-home_ex1/take-home_ex1)
+-   [ZHU YITING](https://yiting-is-learning-geospatial.netlify.app/take-home_ex/take-home_ex1/take-home_ex1)

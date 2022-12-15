@@ -1,47 +1,47 @@
 ---
-title: "Lesson 5: Geograpgically Weighted Machine Learning"
+title: "Lesson 5: Geograpgically Weighted Logistic Regression (GWLR) and Application"
 date: "`r Sys.Date()`"
 format: html
 ---
 
 ## Overview
 
-In this lesson, you will learn the basic concepts and methods of machine learning techniques specially designed for geographical data. Upon completion of this lesson, you will able to:
+In this lesson, you will learn the basic concepts and methods of logistic regression specially designed for geographical data. Upon completion of this lesson, you will able to:
 
--   explain the similarities and differences between non-spatial Random Forest (RF) algorithm versus geographical weighted RF algorithm.
--   calibrate predictive models by using appropriate geographically weighted RF algorithm for geographical data.
+-   explain the similarities and differences between Logistic Regression (LR) algorithm versus geographical weighted Logistic Regression (GWLR) algorithm.
+-   calibrate predictive models by using appropriate Geographically Weighted Logistic Regression algorithm for geographical data.
 
 ## Content
 
--   Basic concepts and principles of recursive partitioning methods
-    -   Decision Tree and Regression Tree
-    -   Random Forest and Bootstrap Forest
--   Introducing Geographically Weighted Random Forest
+-   Basic concepts and principles of Logistic Regression
+-   Geographically Weighted Logistic Regression methods
     -   Weighting functions (kernel)
     -   Weighting schemes
     -   Bandwidth
     -   Interpreting and Visualising
 
-## Lesson Slides and Hands-on Notes
-
--   Lesson slides in [html](../lesson/lesson05/lesson05-gwML.html) format
-
--   Handout of Hands-on Exercise 5 in [html](../Hands-on_Ex/Hands-on_Ex05/Hands-on_Ex05-gwML.html).
-
 ## Self-reading Before Meet-up
 
 To read before class:
 
--   Georganos, S. et. al. (2019) ["Geographical Random Forests: A Spatial Extension of the Random Forest Algorithm to Address Spatial Heterogeneity in Remote Sensing and Population Modelling"](https://www.tandfonline.com/doi/full/10.1080/10106049.2019.1595177). *Geocarto International*, 36, 121–136.
--   Georganos, S. & Kalogirou, S. (2022) ["A Forest of Forests: A SpatiallyWeighted and Computationally
-Efficient Formulation of Geographical Random Forests"](https://www.mdpi.com/2220-9964/11/9/471), *International Journal of Geo-Information*, 11, 471-479.
--   Julian Hagenauer & Marco Helbich (2022) ["A geographically weighted artificial neural network"](https://www.tandfonline.com/doi/full/10.1080/13658816.2021.1871618), *International Journal of Geographical Information Science*, 36:2, 215-235, DOI: 10.1080/13658816.2021.1871618
+-   Atkinson PM, German SE, Sear DQ and Clark MJ (2003) ["Exploring the relations between riverbank erosion and geomorphological controls using geographically weighted logistic regression"](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1538-4632.2003.tb01101.x). *Geographical Analysis* 35(1): 58--82.
 
 ## References
 
--   Kopczewska, Katarzyna (2021) ["Spatial machine learning: new opportunities for regional science"](https://link.springer.com/content/pdf/10.1007/s00168-021-01101-x.pdf), *The Annals of Regional Science* (2022) 68:713--755.
+-   Schultz, C. et. al. (2016) "Comparison of spatial and aspatial logistic regression models for landmine risk mapping", *Applied Geography* 66, pp. 52-63. Available in SMU eLibrary.
+
+- Varun Narayan Mishra et. al. (2021) "Geographically Weighted Method Integrated with Logistic Regression
+for Analyzing Spatially Varying Accuracy Measures of Remote Sensing
+Image Classification". *Journal of the Indian Society of Remote Sensing*, 49(5):1189–1199. Available in SMU eLibrary.
+
+- Helen J Mayfield et. al (2018) ["Use of geographically weighted logistic regression to quantify spatial variation in the environmental and sociodemographic drivers of leptospirosis in Fiji: a modelling study"](https://pubmed.ncbi.nlm.nih.gov/29709286/). *Lancet Planet Health* 2: pp. 223–232. 
+
+- Felix Ndidi Nkeki, Monday Ohi Asikhia (2019) "Geographically weighted logistic regression approach to explore the spatial variability in travel behaviour and built environment interactions: Accounting simultaneously for demographic and socioeconomic characteristics" *Applied Geography*, Vol. 108, Pp. 47-63. Available in SMU eLibrary.
+
+- Han Li, Ye Hua Dennis Wei and Zhiji Huang (2014) ["Urban Land Expansion and Spatial Dynamics in Globalizing Shanghai"](https://www.mdpi.com/2071-1050/6/12/8856), *Sustainability* 6, 8856-8875.
 
 ## All About R
 
--   [SpatialML](https://cran.r-project.org/web/packages/SpatialML/index.html) package, especially the [reference guide](https://cran.r-project.org/web/packages/SpatialML/SpatialML.pdf).
--   [spatialRF](https://blasbenito.github.io/spatialRF/index.html)
+-   [**GWmodel**](https://cran.r-project.org/web/packages/GWmodel/) package, especially
+    -   Gollini, I et. al. (2015) ["GWmodel: An R Package for Exploring Spatial Heterogeneity Using Geographically Weighted Models"](https://www.jstatsoft.org/article/view/v063i17), *Journal of Statistical Software*, Volume 63, Issue 17 and
+    -   Binbin Lu, Paul Harris, Martin Charlton & Chris Brunsdon (2014) ["The GWmodel R package: further topics for exploring spatial heterogeneity using geographically weighted models"](https://www.tandfonline.com/doi/full/10.1080/10095020.2014.917453), *Geo-spatial Information Science*, 17:2, 85-101, DOI: 10.1080/10095020.2014.917453.

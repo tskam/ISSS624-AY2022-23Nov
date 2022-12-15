@@ -163,16 +163,16 @@
   {
     "objectID": "outline/Lesson5_outline.html",
     "href": "outline/Lesson5_outline.html",
-    "title": "Lesson 5: Geograpgically Weighted Machine Learning",
+    "title": "Lesson 5: Geograpgically Weighted Logistic Regression (GWLR) and Application",
     "section": "",
-    "text": "In this lesson, you will learn the basic concepts and methods of machine learning techniques specially designed for geographical data. Upon completion of this lesson, you will able to:\n\nexplain the similarities and differences between non-spatial Random Forest (RF) algorithm versus geographical weighted RF algorithm.\ncalibrate predictive models by using appropriate geographically weighted RF algorithm for geographical data."
+    "text": "In this lesson, you will learn the basic concepts and methods of logistic regression specially designed for geographical data. Upon completion of this lesson, you will able to:\n\nexplain the similarities and differences between Logistic Regression (LR) algorithm versus geographical weighted Logistic Regression (GWLR) algorithm.\ncalibrate predictive models by using appropriate Geographically Weighted Logistic Regression algorithm for geographical data."
   },
   {
     "objectID": "outline/Lesson5_outline.html#content",
     "href": "outline/Lesson5_outline.html#content",
-    "title": "Lesson 5: Geograpgically Weighted Machine Learning",
+    "title": "Lesson 5: Geograpgically Weighted Logistic Regression (GWLR) and Application",
     "section": "Content",
-    "text": "Content\n\nBasic concepts and principles of recursive partitioning methods\n\nDecision Tree and Regression Tree\nRandom Forest and Bootstrap Forest\n\nIntroducing Geographically Weighted Random Forest\n\nWeighting functions (kernel)\nWeighting schemes\nBandwidth\nInterpreting and Visualising"
+    "text": "Content\n\nBasic concepts and principles of Logistic Regression\nGeographically Weighted Logistic Regression methods\n\nWeighting functions (kernel)\nWeighting schemes\nBandwidth\nInterpreting and Visualising"
   },
   {
     "objectID": "outline/Lesson5_outline.html#lesson-slides-and-hands-on-notes",
@@ -184,23 +184,23 @@
   {
     "objectID": "outline/Lesson5_outline.html#self-reading-before-meet-up",
     "href": "outline/Lesson5_outline.html#self-reading-before-meet-up",
-    "title": "Lesson 5: Geograpgically Weighted Machine Learning",
+    "title": "Lesson 5: Geograpgically Weighted Logistic Regression (GWLR) and Application",
     "section": "Self-reading Before Meet-up",
-    "text": "Self-reading Before Meet-up\nTo read before class:\n\nGeorganos, S. et. al. (2019) “Geographical Random Forests: A Spatial Extension of the Random Forest Algorithm to Address Spatial Heterogeneity in Remote Sensing and Population Modelling”. Geocarto International, 36, 121–136.\nGeorganos, S. & Kalogirou, S. (2022) “A Forest of Forests: A SpatiallyWeighted and Computationally Efficient Formulation of Geographical Random Forests”, International Journal of Geo-Information, 11, 471-479.\nJulian Hagenauer & Marco Helbich (2022) “A geographically weighted artificial neural network”, International Journal of Geographical Information Science, 36:2, 215-235, DOI: 10.1080/13658816.2021.1871618"
+    "text": "Self-reading Before Meet-up\nTo read before class:\n\nAtkinson PM, German SE, Sear DQ and Clark MJ (2003) “Exploring the relations between riverbank erosion and geomorphological controls using geographically weighted logistic regression”. Geographical Analysis 35(1): 58–82."
   },
   {
     "objectID": "outline/Lesson5_outline.html#references",
     "href": "outline/Lesson5_outline.html#references",
-    "title": "Lesson 5: Geograpgically Weighted Machine Learning",
+    "title": "Lesson 5: Geograpgically Weighted Logistic Regression (GWLR) and Application",
     "section": "References",
-    "text": "References\n\nKopczewska, Katarzyna (2021) “Spatial machine learning: new opportunities for regional science”, The Annals of Regional Science (2022) 68:713–755."
+    "text": "References\n\nSchultz, C. et. al. (2016) “Comparison of spatial and aspatial logistic regression models for landmine risk mapping”, Applied Geography 66, pp. 52-63. Available in SMU eLibrary.\nVarun Narayan Mishra et. al. (2021) “Geographically Weighted Method Integrated with Logistic Regression for Analyzing Spatially Varying Accuracy Measures of Remote Sensing Image Classification”. Journal of the Indian Society of Remote Sensing, 49(5):1189–1199. Available in SMU eLibrary.\nHelen J Mayfield et. al (2018) “Use of geographically weighted logistic regression to quantify spatial variation in the environmental and sociodemographic drivers of leptospirosis in Fiji: a modelling study”. Lancet Planet Health 2: pp. 223–232.\nFelix Ndidi Nkeki, Monday Ohi Asikhia (2019) “Geographically weighted logistic regression approach to explore the spatial variability in travel behaviour and built environment interactions: Accounting simultaneously for demographic and socioeconomic characteristics” Applied Geography, Vol. 108, Pp. 47-63. Available in SMU eLibrary.\nHan Li, Ye Hua Dennis Wei and Zhiji Huang (2014) “Urban Land Expansion and Spatial Dynamics in Globalizing Shanghai”, Sustainability 6, 8856-8875."
   },
   {
     "objectID": "outline/Lesson5_outline.html#all-about-r",
     "href": "outline/Lesson5_outline.html#all-about-r",
-    "title": "Lesson 5: Geograpgically Weighted Machine Learning",
+    "title": "Lesson 5: Geograpgically Weighted Logistic Regression (GWLR) and Application",
     "section": "All About R",
-    "text": "All About R\n\nSpatialML package, especially the reference guide.\nspatialRF"
+    "text": "All About R\n\nGWmodel package, especially\n\nGollini, I et. al. (2015) “GWmodel: An R Package for Exploring Spatial Heterogeneity Using Geographically Weighted Models”, Journal of Statistical Software, Volume 63, Issue 17 and\nBinbin Lu, Paul Harris, Martin Charlton & Chris Brunsdon (2014) “The GWmodel R package: further topics for exploring spatial heterogeneity using geographically weighted models”, Geo-spatial Information Science, 17:2, 85-101, DOI: 10.1080/10095020.2014.917453."
   },
   {
     "objectID": "syllabus.html",
@@ -348,5 +348,12 @@
     "title": "Lesson 4: Geograpgically Weighted Regression",
     "section": "Hands-on Exercise",
     "text": "Hands-on Exercise\n\n6 Calibrating Hedonic Pricing Model for Private Highrise Property with GWR Method"
+  },
+  {
+    "objectID": "outline/Lesson5_outline.html#all-about-r-1",
+    "href": "outline/Lesson5_outline.html#all-about-r-1",
+    "title": "Lesson 5: Geograpgically Weighted Logistic Regression (GWLR) and Application",
+    "section": "All About R",
+    "text": "All About R\n\nGWmodel package, especially\n\nGollini, I et. al. (2015) “GWmodel: An R Package for Exploring Spatial Heterogeneity Using Geographically Weighted Models”, Journal of Statistical Software, Volume 63, Issue 17 and\nBinbin Lu, Paul Harris, Martin Charlton & Chris Brunsdon (2014) “The GWmodel R package: further topics for exploring spatial heterogeneity using geographically weighted models”, Geo-spatial Information Science, 17:2, 85-101, DOI: 10.1080/10095020.2014.917453."
   }
 ]

@@ -105,9 +105,9 @@ This exercise will be graded by using the following criteria:
 
 -   [LIM JUN LING](https://geospatialsunshine.netlify.app/take-home_ex/take-home_ex1/take-home_ex1)
 
--   [LIN SHUYAN](https://lins-92-isss624.netlify.app/take-home_ex01/take-home_ex01)
+-   [LIN SHUYAN](https://lins-92-isss624.netlify.app/take-home_ex01/take-home_ex01) ![](img/thumbup1.jpg) Geospatial data wrangling is very comprehensively done especially identifying water points located outside Nigeria administrative boundary due to location **precision** issue.
 
--   [LOH SI YING](https://lohsiying.netlify.app/take_home_ex/ex1/take-home-ex1.html)
+-   [LOH SI YING](https://lohsiying.netlify.app/take_home_ex/ex1/take-home-ex1.html)![](img/thumbup1.jpg) Overall very well balance submission. The geospatial wrangling are very comprehensively done including to exclude LGAs without water points from the analysis. For Gi, managed to compute the p-values. Geocommunication: Start each analysis by explaining the purpose of the analysis. Managed to relate the analysis results to the location context.
 
 -   [LOW POH SING JEFFREY](https://isss624jeffreylowps.netlify.app/take-home_ex/take-home_ex1/take-home_ex1)
 
@@ -175,4 +175,4 @@ This exercise will be graded by using the following criteria:
 
 -   [ZHU FANGYUAN](https://isss624agaa.netlify.app/take_home_ex1/take_home_ex1)
 
--   [ZHU YITING](https://yiting-is-learning-geospatial.netlify.app/take-home_ex/take-home_ex1/take-home_ex1)
+-   [ZHU YITING](https://yiting-is-learning-geospatial.netlify.app/take-home_ex/take-home_ex1/take-home_ex1) ![](img/thumbup1.jpg) Provide a useful discussion on how to extract and download the both data sets from their respective sources.

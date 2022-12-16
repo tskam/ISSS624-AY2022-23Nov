@@ -113,7 +113,7 @@ This exercise will be graded by using the following criteria:
 
 -   [LYNN KWONG](https://isss624-lynn.netlify.app/takehomeex1/takehomeex1)
 
--   [ONG ZHI RONG JORDAN](https://jordan-isss624-geospatial.netlify.app/posts/geo/geospatial_exercise/)
+-   [ONG ZHI RONG JORDAN](https://jordan-isss624-geospatial.netlify.app/posts/geo/geospatial_exercise/) ![](img/thumbup1.jpg) A good example to learn geospatial data wrangling. Full of useful code chunk to learn from. Alternative approach to derive significant Gi.
 
 -   [QUAH ZONG YOU](https://isss624-zy.netlify.app/take-home_ex1/take-home_ex1)
 

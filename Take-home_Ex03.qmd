@@ -1,4 +1,0 @@
----
-title: "Take-home Exercise 3"
-editor: visual
----

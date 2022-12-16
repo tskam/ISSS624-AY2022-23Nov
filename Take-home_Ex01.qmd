@@ -83,7 +83,7 @@ This exercise will be graded by using the following criteria:
 
 -   [CHONG KOK WEI ALLAN CHONG](https://mitb-isss624-ackw-gis-analytics.netlify.app/take-home_ex1/take-home_ex1#hot-spot-and-cold-spot-area-analysis)
 
--   [CHUA YAN TING](https://isss624-amelia.netlify.app/exercises/take-home_ex1/take-home_ex1)
+-   [CHUA YAN TING](https://isss624-amelia.netlify.app/exercises/take-home_ex1/take-home_ex1) ![](img/thumbup1.jpg) Have done well in all five grading criteria especially the geocommunication criterion.
 
 -   [HAN SHUMIN](https://master--hanshuminisss624.netlify.app/take-home_ex/take-home_ex1/take-home_ex1)
 
@@ -107,7 +107,7 @@ This exercise will be graded by using the following criteria:
 
 -   [LIN SHUYAN](https://lins-92-isss624.netlify.app/take-home_ex01/take-home_ex01) ![](img/thumbup1.jpg) Geospatial data wrangling is very comprehensively done especially identifying water points located outside Nigeria administrative boundary due to location **precision** issue.
 
--   [LOH SI YING](https://lohsiying.netlify.app/take_home_ex/ex1/take-home-ex1.html)![](img/thumbup1.jpg) Overall very well balance submission. The geospatial wrangling are very comprehensively done including to exclude LGAs without water points from the analysis. For Gi, managed to compute the p-values. Geocommunication: Start each analysis by explaining the purpose of the analysis. Managed to relate the analysis results to the location context.
+-   [LOH SI YING](https://lohsiying.netlify.app/take_home_ex/ex1/take-home-ex1.html)![](img/thumbup1.jpg) Have done well in all five grading criteria especially the followings: (i) the geospatial wrangling are very comprehensively done including to exclude LGAs without water points from the analysis, (ii) managed to compute the p-values, (iii) Start each analysis by explaining the purpose of the analysis. Managed to relate the analysis results to the location context.
 
 -   [LOW POH SING JEFFREY](https://isss624jeffreylowps.netlify.app/take-home_ex/take-home_ex1/take-home_ex1)
 

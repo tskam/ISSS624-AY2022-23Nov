@@ -101,7 +101,7 @@ This exercise will be graded by using the following criteria:
 
 -   [LE THANH THAO](https://gsaiss624.netlify.app/take-home_ex2/take-home_ex2)
 
--   [LE TRAN THUY DUNG](https://github.com/sylvie-le/ISSS624/tree/main/Take-home_Ex/Take-home_Ex2)
+-   [LE TRAN THUY DUNG](https://isss624-1stcommit.netlify.app/take-home_ex/take-home_ex2/take-home_ex2)
 
 -   [LEE CHEE TIAN](https://leecheetian-isss624.netlify.app/take-home_ex/take-home_ex2/take-home_ex2)
 

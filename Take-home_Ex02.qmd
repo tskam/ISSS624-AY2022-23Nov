@@ -97,7 +97,7 @@ This exercise will be graded by using the following criteria:
 
 -   [LAI WEI SONG](https://isss624-leprekonsg.netlify.app/take-home_ex/take-home_ex2/take-home_ex2)
 
--   [LAM YU HAY GLADWIN](https://gladwin-geospatial-analysis.netlify.app/takehome/takehome1/takehome1)
+-   [LAM YU HAY GLADWIN](https://gladwin-geospatial-analysis.netlify.app/takehome/takehome2/takehome2)
 
 -   [LE THANH THAO](https://gsaiss624.netlify.app/take-home_ex2/take-home_ex2)
 
@@ -180,4 +180,3 @@ This exercise will be graded by using the following criteria:
 -   [ZHU FANGYUAN](https://isss624agaa.netlify.app/take_home_ex2/take_home_ex2)
 
 -   [ZHU YITING](https://yiting-is-learning-geospatial.netlify.app/take-home_ex/take-home_ex2/take-home_ex2)
-

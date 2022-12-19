@@ -133,7 +133,7 @@ This exercise will be graded by using the following criteria:
 
 -   [SHAO GUANBO](https://isss624gbshao.netlify.app/take-home_ex2/take-home_ex2)
 
--   [SHI CHEE LIANG]()
+-   [SHI CHEE LIANG](https://isss624scl.netlify.app/takehomeex/takehomeex02/takehomeex02)
 
 -   [SHINDE YOGENDRA SUNIL](https://geospatialanalytics-by-yogendra2.netlify.app/takehome_ex02/takehome_ex02_updated)
 

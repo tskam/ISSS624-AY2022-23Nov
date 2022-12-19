@@ -149,7 +149,7 @@ This exercise will be graded by using the following criteria:
 
 -   [TAN ZEXEONG]()
 
--   [TAO MEIZHU]()
+-   [TAO MEIZHU](https://isss624-geospatial-analytics.netlify.app/take-home%20exercise/take-home_ex2/take-home_ex2)
 
 -   [WANG QI](https://isss624wangqi.netlify.app/take-home_ex2/take-home_ex2)
 
